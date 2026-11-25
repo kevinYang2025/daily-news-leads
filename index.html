@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIGNAL · 每日新闻线索分析</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="brand-text">
+        <div class="brand-name">SIGNAL</div>
+        <div class="brand-sub">每日新闻线索分析 · DAILY INTELLIGENCE BRIEF</div>
+      </div>
+    </div>
+    <div class="issue-meta">
+      <div class="issue-block">
+        <span class="issue-label">采集窗口</span>
+        <span class="issue-value" id="metaWindow">—</span>
+      </div>
+      <div class="issue-block">
+        <span class="issue-label">生成时间</span>
+        <span class="issue-value" id="metaGenerated">—</span>
+      </div>
+      <div class="issue-seal" id="metaStatus">待载入</div>
+    </div>
+  </div>
+</header>
+
+<main class="shell">
+  <!-- 空状态 -->
+  <section class="notice" id="notice" hidden>
+    <div class="notice-icon">!</div>
+    <div>
+      <h2>暂无新闻数据</h2>
+      <p id="noticeText">请先运行 <code>python main.py</code> 生成 data.js，或将本页接入定时管线。</p>
+    </div>
+  </section>
+
+  <!-- 指标条 -->
+  <section class="metrics" id="metrics" aria-label="数据概览">
+    <div class="metric">
+      <span class="metric-index">01</span>
+      <span class="metric-value" id="mFetched">—</span>
+      <span class="metric-label">采集原文</span>
+    </div>
+    <div class="metric">
+      <span class="metric-index">02</span>
+      <span class="metric-value" id="mValid">—</span>
+      <span class="metric-label">窗口内有效</span>
+    </div>
+    <div class="metric accent">
+      <span class="metric-index">03</span>
+      <span class="metric-value" id="mLeads">—</span>
+      <span class="metric-label">提炼线索</span>
+    </div>
+    <div class="metric">
+      <span class="metric-index">04</span>
+      <span class="metric-value" id="mSources">—</span>
+      <span class="metric-label">信源数</span>
+    </div>
+  </section>
+
+  <!-- 研判区 -->
+  <section class="brief-grid" id="briefGrid">
+    <article class="panel brief-panel">
+      <div class="panel-head">
+        <span class="panel-kicker">ANALYSIS / 01</span>
+        <h2>今日研判</h2>
+      </div>
+      <p class="brief-text" id="briefText">—</p>
+    </article>
+    <article class="panel cross-panel">
+      <div class="panel-head">
+        <span class="panel-kicker">SIGNALS / 02</span>
+        <h2>跨领域关联</h2>
+      </div>
+      <ul class="cross-list" id="crossList"></ul>
+    </article>
+  </section>
+
+  <!-- 筛选控制 -->
+  <section class="controls" id="controls">
+    <div class="control-row">
+      <div class="filter-group">
+        <span class="filter-label">主题</span>
+        <div class="chips" id="categoryChips"></div>
+      </div>
+      <div class="filter-group compact">
+        <span class="filter-label">重要度</span>
+        <div class="segmented" id="importanceFilter">
+          <button type="button" class="seg active" data-value="all">全部</button>
+          <button type="button" class="seg" data-value="high">高</button>
+          <button type="button" class="seg" data-value="medium">中</button>
+          <button type="button" class="seg" data-value="low">低</button>
+        </div>
+      </div>
+    </div>
+    <div class="control-row secondary">
+      <label class="search-box">
+        <span class="search-icon" aria-hidden="true"></span>
+        <input type="search" id="searchInput" placeholder="搜索关键词、主体、信源…" autocomplete="off">
+      </label>
+      <div class="view-switch" id="viewSwitch">
+        <button type="button" class="view-btn active" data-view="cards">卡片</button>
+        <button type="button" class="view-btn" data-view="timeline">时间线</button>
+      </div>
+      <div class="result-count" id="resultCount">—</div>
+    </div>
+  </section>
+
+  <!-- 线索列表 -->
+  <section class="leads" id="leads" aria-live="polite"></section>
+
+  <!-- 无匹配 -->
+  <section class="empty-state" id="emptyState" hidden>
+    <div class="empty-rule"></div>
+    <p>没有符合当前筛选条件的线索</p>
+    <button type="button" class="reset-btn" id="resetBtn">清除筛选</button>
+  </section>
+
+  <footer class="page-foot">
+    <div class="foot-line"></div>
+    <div class="foot-content">
+      <span>SIGNAL · 由自动化管线生成</span>
+      <span id="footNote">信源：GDELT / Google News / 媒体 RSS / 科技热榜</span>
+    </div>
+  </footer>
+</main>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

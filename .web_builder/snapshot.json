@@ -1,0 +1,1 @@
+{"entry": "index.html", "files": [".env.example", ".github/workflows/daily.yml", "analyzer.py", "app.js", "collectors.py", "config.py", "data.js", "index.html", "main.py", "models.py", "outputs/index.json", "outputs/news-leads-2026-11-25.md", "processors.py", "README.md", "renderer.py", "requirements.txt", "styles.css"], "resource_dir": ".", "schema_version": 1}
