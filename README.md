@@ -70,6 +70,28 @@ git push -u origin main
 > 请先在 AI Studio 的 Key 详情页点 **Copy key** 确认复制了完整 53 字符，并确认该项目已启用 Gemini API。
 > 可在 Actions 里临时加一步 `python check_key.py` 做预检（见下文）。
 
+### 2.5 先验证 Key 能不能用（推荐）
+
+推送代码后，到仓库 **Actions** 标签页：
+
+1. 左侧选中 **Check Gemini API Key**
+2. 右侧点 **Run workflow** → 绿色按钮 **Run workflow**
+3. 等几秒，点进本次运行，看日志输出
+
+会依次显示四步检查结果：
+
+```
+[1] Key 格式       ✓ 新版 Authentication Key 格式正确（AQ. 前缀，53 字符）
+[2] 网络连通性     models 端点 HTTP 200
+[3] 认证与模型列表 ✓ 认证成功，可用模型 xx 个
+[4] 实际生成测试   ✓ 生成成功，模型回复：可用
+结论：Key 完全可用，可填入 GitHub Actions Secrets。
+```
+
+任何一步失败都会打印具体原因和解决办法。**建议先跑通这个，再启用定时任务。**
+
+> 如果第 1 步就显示「未配置 GEMINI_API_KEY」，说明 Secrets 没配好——回到第 2 步检查名称拼写（必须全大写、下划线）。
+
 ### 3. 启用定时
 
 工作流文件 `.github/workflows/daily.yml` 已配置 `cron: '0 2 * * *'`（UTC 02:00 = 北京 10:00）。推送后自动生效，也可以在 Actions 页面手动点 **Run workflow** 立即测试。
