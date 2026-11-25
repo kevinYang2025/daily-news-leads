@@ -43,10 +43,12 @@ SYSTEM_PROMPT = """你是一名资深科技与地缘政治情报分析师。请�
 def _call_gemini(prompt: str, errors: list[str], retries: int = 2) -> Optional[dict]:
     if not cfg.GEMINI_API_KEY:
         return None
+    # 官方推荐用 x-goog-api-key 请求头传递密钥（新版 AQ. 认证密钥尤其需要）
     url = (
         f"https://generativelanguage.googleapis.com/v1beta/models/"
-        f"{cfg.GEMINI_MODEL}:generateContent?key={cfg.GEMINI_API_KEY}"
+        f"{cfg.GEMINI_MODEL}:generateContent"
     )
+    headers = {"x-goog-api-key": cfg.GEMINI_API_KEY, "Content-Type": "application/json"}
     payload = {
         "systemInstruction": {"parts": [{"text": SYSTEM_PROMPT}]},
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
@@ -58,12 +60,18 @@ def _call_gemini(prompt: str, errors: list[str], retries: int = 2) -> Optional[d
     }
     for attempt in range(retries + 1):
         try:
-            resp = requests.post(url, json=payload, timeout=90)
+            resp = requests.post(url, json=payload, headers=headers, timeout=90)
             if resp.status_code == 429 or resp.status_code >= 500:
                 time.sleep(3 * (attempt + 1))
                 continue
             if resp.status_code != 200:
-                errors.append(f"Gemini HTTP {resp.status_code}: {resp.text[:200]}")
+                # 提取错误 reason，便于诊断新版 Key 的 ACCESS_TOKEN_TYPE_UNSUPPORTED
+                reason = ""
+                try:
+                    reason = resp.json().get("error", {}).get("status", "")
+                except Exception:  # noqa: BLE001
+                    pass
+                errors.append(f"Gemini HTTP {resp.status_code} {reason}: {resp.text[:180]}")
                 return None
             text = resp.json()["candidates"][0]["content"]["parts"][0]["text"]
             text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.MULTILINE)

@@ -1,0 +1,13 @@
+# 密钥与本地配置（绝不提交）
+.env
+.env.*
+!.env.example
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 本地验证产物
+.web_builder/
+*.log

@@ -61,9 +61,14 @@ git push -u origin main
 
 | 名称 | 值 | 说明 |
 |---|---|---|
-| `GEMINI_API_KEY` | `AIza...` | [Google AI Studio](https://aistudio.google.com/app/apikey) 免费获取 |
+| `GEMINI_API_KEY` | `AQ...` 或 `AIza...` | [Google AI Studio](https://aistudio.google.com/app/apikey) 免费获取 |
 
 可选 Variables：`GEMINI_MODEL`（默认 `gemini-2.5-flash`）。
+
+> **新版 AQ. Key 注意事项**：2026 年 5 月起 AI Studio 只发 `AQ.` 前缀的 53 字符 Authentication Key。
+> 代码已按官方推荐用 `x-goog-api-key` 请求头传递。若遇到 `401 ACCESS_TOKEN_TYPE_UNSUPPORTED`，
+> 请先在 AI Studio 的 Key 详情页点 **Copy key** 确认复制了完整 53 字符，并确认该项目已启用 Gemini API。
+> 可在 Actions 里临时加一步 `python check_key.py` 做预检（见下文）。
 
 ### 3. 启用定时
 
@@ -93,6 +98,9 @@ Gemini API 免费层对 `gemini-2.5-flash` 提供每日请求配额，本管线�
 
 **Q: 报告里很多"待分析（当前为无 Key 降级输出）"？**
 A: 说明 `GEMINI_API_KEY` 未生效。检查 Secrets 名称是否完全一致，或在本地 `.env` 中配置（可用 `python-dotenv` 加载）。
+
+**Q: 怎么验证我的 Key 到底能不能用？**
+A: 运行 `python check_key.py`，它会依次检查格式、网络、认证和实际生成四步并给出诊断。注意本地若屏蔽 Google 域名会卡在「网络连通性」一步，此时应把脚本放到 GitHub Actions 或境外服务器跑。
 
 **Q: GDELT 返回 429？**
 A: 本地出口 IP 可能与其他用户共享。GitHub Actions 的出口 IP 通常不受影响；也可增大 `GDELT_REQUEST_INTERVAL` 到 10 秒。
