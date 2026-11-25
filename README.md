@@ -129,3 +129,5 @@ A: 本地出口 IP 可能与其他用户共享。GitHub Actions 的出口 IP 通
 
 **Q: 想加新的新闻主题？**
 A: 在 `config.py` 的 `CATEGORIES` 中新增一个键，填写 `label`、`color`、`queries`、`gdelt_themes`、`zh_queries`，看板会自动出现对应筛选标签。
+
+<!-- preflight setup 20261125062610 -->
