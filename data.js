@@ -1,44 +1,44 @@
 window.NEWS_DATA = {
-  "generatedAt": "2026-11-26 18:33:37",
+  "generatedAt": "2026-11-27 18:38:10",
   "window": {
-    "start": "2026-11-25 10:00",
-    "end": "2026-11-26 10:00",
+    "start": "2026-11-26 10:00",
+    "end": "2026-11-27 10:00",
     "timezone": "Asia/Shanghai"
   },
   "stats": {
-    "fetched": 1106,
-    "valid": 512,
+    "fetched": 1181,
+    "valid": 497,
     "leads": 48,
     "sources": 15,
     "byCategory": {
-      "economy": 35,
-      "finance": 87,
-      "military": 75,
-      "politics_cn": 41,
-      "politics_eu": 63,
-      "politics_us": 73,
-      "tech_ai": 66,
-      "tech_ev": 72
+      "military": 120,
+      "economy": 47,
+      "finance": 76,
+      "politics_cn": 32,
+      "politics_eu": 56,
+      "politics_us": 41,
+      "tech_ai": 73,
+      "tech_ev": 52
     },
     "bySource": {
-      "Sohu": 27,
-      "财联社": 20,
-      "手机新浪网": 18,
-      "汽车之家": 11,
+      "Sohu": 17,
+      "手机新浪网": 12,
+      "财联社": 10,
+      "新浪财经": 10,
+      "汽车之家": 9,
       "央视网": 9,
-      "新浪财经": 8,
-      "TradingView": 8,
-      "东方财富网": 8,
-      "美国之音": 8,
-      "观点网": 8,
-      "证券之星": 7,
-      "CNBC": 6,
-      "生物通": 6,
-      "TradingKey": 5,
-      "汇通财经": 5
+      "证券之星": 8,
+      "www.tmgm.com": 7,
+      "中华网": 7,
+      "凤凰网": 7,
+      "ABC News - Breaking News, Latest News and Videos": 6,
+      "21财经": 6,
+      "新浪网": 6,
+      "36Kr": 6,
+      "Vietnam.vn": 5
     }
   },
-  "brief": "本窗口共采集 512 条报道，覆盖 8 个主题。当前为规则式降级输出，配置 GEMINI_API_KEY 后可生成完整研判。",
+  "brief": "本窗口共采集 497 条报道，覆盖 8 个主题。当前为规则式降级输出，配置 GEMINI_API_KEY 后可生成完整研判。",
   "crossDomain": [
     "配置 GEMINI_API_KEY 后可获得跨领域关联分析"
   ],
@@ -78,351 +78,15 @@ window.NEWS_DATA = {
   },
   "leads": [
     {
-      "id": "economy-001",
-      "category": "economy",
-      "title": "2027 economic and market outlo",
-      "summary": "2027 economic and market outlook Fidelity Investments",
-      "key_facts": [
-        "Fidelity Investments 于 11-25 15:33 报道：2027 economic and market outlook - Fidelity Investments"
-      ],
-      "entities": [
-        "Fidelity Investments"
-      ],
-      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
-      "confidence": "medium",
-      "importance": "medium",
-      "followups": [
-        "核实事件细节与后续进展"
-      ],
-      "sources": [
-        {
-          "title": "2027 economic and market outlook - Fidelity Investments",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNazk1SWlkR0kxVUJrdThCMmhUVi12eXJ4ZS1haHNtbmdMelRQN3RwQkd4RlRlaVhxOEhjcUtYMVdMZU5KeEFiMFlPVVVCaUtJdVlXS2N2NGVMSEFxSml5djNGbnlXQVMwVnBZV3lDMmRuZDcyVUxRQ1F2VkVHZGFGX18xNDI3clQ2N011ZjlaOEs?oc=5",
-          "publisher": "Fidelity Investments",
-          "published_at": "2026-11-25 15:33"
-        }
-      ],
-      "related": [],
-      "timeline": []
-    },
-    {
-      "id": "economy-002",
-      "category": "economy",
-      "title": "BofA Sees 3.4% Global Growth i",
-      "summary": "BofA Sees 3.4% Global Growth in 2027, Warns AI Boom Is Also the Biggest Threat BigGo Finance",
-      "key_facts": [
-        "BigGo Finance 于 11-25 14:26 报道：BofA Sees 3.4% Global Growth in 2027, Warns AI Boom Is Also the Bigges"
-      ],
-      "entities": [
-        "BigGo Finance"
-      ],
-      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
-      "confidence": "medium",
-      "importance": "medium",
-      "followups": [
-        "核实事件细节与后续进展"
-      ],
-      "sources": [
-        {
-          "title": "BofA Sees 3.4% Global Growth in 2027, Warns AI Boom Is Also the Biggest Threat - BigGo Finance",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JMFBBU2M3bDJPb25BSm9HMXJoSEctbDNGQWNOS2lEV2FSTW5CaE1xcndQT1R5OWNia1JBSUpfMWNuOVcyOHl5TVV1WUtsc04zZlRQMzdYNXNmck1lUHJJdG90V2NQNzY5R1BwYl94aldLVmtYNlE?oc=5",
-          "publisher": "BigGo Finance",
-          "published_at": "2026-11-25 14:26"
-        }
-      ],
-      "related": [],
-      "timeline": []
-    },
-    {
-      "id": "economy-003",
-      "category": "economy",
-      "title": "Broad-based pressure on food p",
-      "summary": "Broad-based pressure on food prices continues: RBI Bulletin The Hindu",
-      "key_facts": [
-        "The Hindu 于 11-25 15:56 报道：Broad-based pressure on food prices continues: RBI Bulletin - The Hind"
-      ],
-      "entities": [
-        "The Hindu"
-      ],
-      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
-      "confidence": "medium",
-      "importance": "medium",
-      "followups": [
-        "核实事件细节与后续进展"
-      ],
-      "sources": [
-        {
-          "title": "Broad-based pressure on food prices continues: RBI Bulletin - The Hindu",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeGdPSzFBOXJXSE9BdWtTMk43aUUxSkcyNWh5NVpzd0xJTDVwTUtMS29fazd2ZXhGZldsMDBQczFXOXkxQjRSTE1EMC00QkNRNEo4RWlGMVowTHo4YXZ2RUxwNncxQ2sxZ1FjcTFXMFFyTl9fUVlWNVBKdTVYLV9QcHBlOWlENEZwcXEtUXdFcU1sWFFGaUlUWHBVUVFTU0RSNUhVd2tIUEFmaU42ak1YaE05TlhGZURCUGJfMy1kWE1mRWfSAcMBQVVfeXFMUHhnT0sxQTlyV0hPQXVrUzJON2lFMUpHMjVoeTVac3dMSUw1cE1LTEtvX2s3dmV4RmZXbDAwUHMxVzl5MUI0UkxNRDAtNEJDUTRKOEVpRjFaMEx6OGF2dkVMcDZ3MUNrMWdRY3ExVzBRck5fX1FZVjVQSnU1WC1fUHBwZTlpRDRGcHFxLVF3RXFNbFhRRmlJVFhwVVFRU1NEUjVIVXdrSFBBZmlONmpNWGhNOU5YRmVEQlBiXzMtZFhNZkVn?oc=5",
-          "publisher": "The Hindu",
-          "published_at": "2026-11-25 15:56"
-        }
-      ],
-      "related": [],
-      "timeline": []
-    },
-    {
-      "id": "economy-004",
-      "category": "economy",
-      "title": "Cardoso says AI investment cou",
-      "summary": "Cardoso says AI investment could cushion impact of high energy prices Nairametrics",
-      "key_facts": [
-        "Nairametrics 于 11-25 16:36 报道：Cardoso says AI investment could cushion impact of high energy prices "
-      ],
-      "entities": [
-        "Nairametrics"
-      ],
-      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
-      "confidence": "medium",
-      "importance": "medium",
-      "followups": [
-        "核实事件细节与后续进展"
-      ],
-      "sources": [
-        {
-          "title": "Cardoso says AI investment could cushion impact of high energy prices - Nairametrics",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeU9RX1BQQ184bldzdko4MXBZbzh6ZndKNVB2a1MwUE5xeTh1NHYwRW1BVkhJNDFycS1UUm1fY01YUzFyU2FtajdIWHl2REtuQ1NHaG5SZG40b2N2a2JsNHo0b29KelB1SFJtcV9WdlFMT1ZnX1c2ZlpPeG1BbHN6S05KQk1MaHZUYnlVb1gwV3Z6cTVNNmdLeDdSOWxWMXpCWEFmTGhWaVc1dw?oc=5",
-          "publisher": "Nairametrics",
-          "published_at": "2026-11-25 16:36"
-        }
-      ],
-      "related": [],
-      "timeline": []
-    },
-    {
-      "id": "economy-005",
-      "category": "economy",
-      "title": "CrowdStrike Holdings Inc(CRWD)",
-      "summary": "CrowdStrike Holdings Inc(CRWD)股票11月25日盘中下跌4.77%：原因全解读 TradingKey",
-      "key_facts": [
-        "TradingKey 于 11-25 17:17 报道：CrowdStrike Holdings Inc(CRWD)股票11月25日盘中下跌4.77%：原因全解读 - TradingKey"
-      ],
-      "entities": [
-        "TradingKey"
-      ],
-      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
-      "confidence": "medium",
-      "importance": "medium",
-      "followups": [
-        "核实事件细节与后续进展"
-      ],
-      "sources": [
-        {
-          "title": "CrowdStrike Holdings Inc(CRWD)股票11月25日盘中下跌4.77%：原因全解读 - TradingKey",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdmRyYUIzRWJSbnJLWFBxcGhvZWFkbzNKOGpYX0JISW9ubHhKamFKclBSb1dpaWJZejNNU0JpN0NndHRacHdrTlVMWVdwTkZWT1FVaUFyT0NnVnRnMUg4bUg0NmxLZHhPUTJKajF6NGlISHBDVXhQT0RvUVptT2Z4TUtYWVByS3BpRHVISW9UeVRwcVAyUkE?oc=5",
-          "publisher": "TradingKey",
-          "published_at": "2026-11-25 17:17"
-        }
-      ],
-      "related": [],
-      "timeline": []
-    },
-    {
-      "id": "economy-006",
-      "category": "economy",
-      "title": "Domestic growth drivers and ov",
-      "summary": "Domestic growth drivers and overall macroeconomic fundamentals remain useful buffers: RBI bulletin BusinessLine",
-      "key_facts": [
-        "BusinessLine 于 11-25 15:07 报道：Domestic growth drivers and overall macroeconomic fundamentals remain "
-      ],
-      "entities": [
-        "BusinessLine"
-      ],
-      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
-      "confidence": "medium",
-      "importance": "medium",
-      "followups": [
-        "核实事件细节与后续进展"
-      ],
-      "sources": [
-        {
-          "title": "Domestic growth drivers and overall macroeconomic fundamentals remain useful buffers: RBI bulletin - BusinessLine",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNS0ZWNHVyazUyV2NyYmlsaEJhamxnS2tjNzZPQm1UZzFoWHRGaktoZTBnZ2VCY2E4VnF2RUdBTlM5ZGlfUnAxQWd3NnZZbjh0Y1dWRDN4Y0hOa0hRMGpfNVpZZDVBVmJXSVpGTlp6N3NubU1pZTlxdWtCaEF0eXNmbXlKNG4zSV9yYUFiM2VfNC1kOThTbGRMRG1YY3hZR2NkWmNMRXdzY05Fam85TTNnTVpzNzdGaWJqal96M2JNWFRLU2lGcE1wZG1XbE1ROWVmUjd5S0xzRUg3VjJrN18zcFBjclBFZkZRa1RzT2U4TVp3NXhSd2FzWFB1d9IB-wFBVV95cUxNS0ZWNHVyazUyV2NyYmlsaEJhamxnS2tjNzZPQm1UZzFoWHRGaktoZTBnZ2VCY2E4VnF2RUdBTlM5ZGlfUnAxQWd3NnZZbjh0Y1dWRDN4Y0hOa0hRMGpfNVpZZDVBVmJXSVpGTlp6N3NubU1pZTlxdWtCaEF0eXNmbXlKNG4zSV9yYUFiM2VfNC1kOThTbGRMRG1YY3hZR2NkWmNMRXdzY05Fam85TTNnTVpzNzdGaWJqal96M2JNWFRLU2lGcE1wZG1XbE1ROWVmUjd5S0xzRUg3VjJrN18zcFBjclBFZkZRa1RzT2U4TVp3NXhSd2FzWFB1dw?oc=5",
-          "publisher": "BusinessLine",
-          "published_at": "2026-11-25 15:07"
-        }
-      ],
-      "related": [],
-      "timeline": []
-    },
-    {
-      "id": "finance-001",
-      "category": "finance",
-      "title": "#美国核心pce超预期，美联储加息预期增强 社区洞察和市场情",
-      "summary": "#美国核心pce超预期，美联储加息预期增强 社区洞察和市场情绪｜币安广场 Binance",
-      "key_facts": [
-        "Binance 于 11-25 14:07 报道：#美国核心pce超预期，美联储加息预期增强 社区洞察和市场情绪｜币安广场 - Binance"
-      ],
-      "entities": [
-        "Binance"
-      ],
-      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
-      "confidence": "medium",
-      "importance": "medium",
-      "followups": [
-        "核实事件细节与后续进展"
-      ],
-      "sources": [
-        {
-          "title": "#美国核心pce超预期，美联储加息预期增强 社区洞察和市场情绪｜币安广场 - Binance",
-          "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQak1SSzBNRERGeHFMTGNuQ2VqMUY2MXlyaFR2NUlidVZaYjgzM3Nmc3V0Y1FzTFRXVHQyUjBpRTFvYmU0a2MwdUFiTWJNeFZmdXlkWVI4a2NiNTFaYkhvSEZkM3AxeGpaWXF1RUFwN2NuVlZOLVd1ejJkSHJiZ0Q2a050a0pCaGZWekNvMU1YRTk3UmNfTUptOUVrYnQ4RHNzeHhPTDcxSGVoUHQzLXJtQ1lneGMzdmFfYW1JbUR4OWZJZUpvVUFMTkVpUU5OTGZtdjBxSzZwYi0wY3NyMGxvbWlmQXB0aG5fcFl6eUdhbnVqTTl6d1MzLXdhM05EYmxPc3RMV0paRDFNZXFXVUREQUVzOW0zUGpjX1k2eWdWSVF2ajBUVDg1RQ?oc=5",
-          "publisher": "Binance",
-          "published_at": "2026-11-25 14:07"
-        }
-      ],
-      "related": [],
-      "timeline": []
-    },
-    {
-      "id": "finance-002",
-      "category": "finance",
-      "title": "2026年12月美联储会再加息吗？GDP4.3%与核心PCE",
-      "summary": "2026年12月美联储会再加息吗？GDP4.3%与核心PCE3.3% MEXC",
-      "key_facts": [
-        "MEXC 于 11-25 15:51 报道：2026年12月美联储会再加息吗？GDP4.3%与核心PCE3.3% - MEXC"
-      ],
-      "entities": [
-        "MEXC"
-      ],
-      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
-      "confidence": "medium",
-      "importance": "medium",
-      "followups": [
-        "核实事件细节与后续进展"
-      ],
-      "sources": [
-        {
-          "title": "2026年12月美联储会再加息吗？GDP4.3%与核心PCE3.3% - MEXC",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeXMyTGpaQTZMT2h4NTZCM1ZsR0dmX25GUVFYQ1NRV2pwbFhVUWxLVVpCOHlBZ1BrV2FsSjRoUmY0dmszWjA4VTB3X0I1amVqVzJOc3lhalhWMjhuMWVVb3RWV3E0Y3YwdDBZMHZZYzJGc2t0OFJfR1IzODFpdFlGcTBPenFhcmcwVlVzU19MVFJZeXhnS3ktYlVqMlRlbjM4S2JwRGE4WXh1cjBtdkM4ZHNrSXdyLWI0b1BXWXl5UDlvNkp2U2k0Zw?oc=5",
-          "publisher": "MEXC",
-          "published_at": "2026-11-25 15:51"
-        }
-      ],
-      "related": [],
-      "timeline": []
-    },
-    {
-      "id": "finance-003",
-      "category": "finance",
-      "title": "AI热潮降温，相当于美联储变相加息_外汇动态报道 - 汇通财",
-      "summary": "AI热潮降温，相当于美联储变相加息_外汇动态报道 汇通财经",
-      "key_facts": [
-        "汇通财经 于 11-25 13:16 报道：AI热潮降温，相当于美联储变相加息_外汇动态报道 - 汇通财经"
-      ],
-      "entities": [
-        "汇通财经"
-      ],
-      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
-      "confidence": "medium",
-      "importance": "medium",
-      "followups": [
-        "核实事件细节与后续进展"
-      ],
-      "sources": [
-        {
-          "title": "AI热潮降温，相当于美联储变相加息_外汇动态报道 - 汇通财经",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBb3ZESXBrWkpNYXQ5dWhZUXRhQzczLWlKNGNKLTJGMWtJSzVtSDlvbXBsRW90bGlsZVd2azJwZkdwMlpWWVh2WnhTVHE2ZTV1WUZUUkk1cFM0QQ?oc=5",
-          "publisher": "汇通财经",
-          "published_at": "2026-11-25 13:16"
-        }
-      ],
-      "related": [],
-      "timeline": []
-    },
-    {
-      "id": "finance-004",
-      "category": "finance",
-      "title": "Another Hot Inflation Reading ",
-      "summary": "Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again The New York Times",
-      "key_facts": [
-        "The New York Times 于 11-25 13:32 报道：Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again "
-      ],
-      "entities": [
-        "The New York Times"
-      ],
-      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
-      "confidence": "medium",
-      "importance": "medium",
-      "followups": [
-        "核实事件细节与后续进展"
-      ],
-      "sources": [
-        {
-          "title": "Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again - The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVmt0OG9famdFX2l1SjBPc1A0aWZYc3Aza2tac0ZTYWk0bWplX2xRWVBUdjh3ZEtOQ1RQbFdhaUc0Wl8zZkpKaGV5c3Q1R3AxZHF0VjBqZ0RicnRRNVZ6X2RfYmNQUnBtTXBfbmNQUWRuZXpVcXFGa2pyRXhJZmhIWUxjXzc5cm1RTG1HSm1n?oc=5",
-          "publisher": "The New York Times",
-          "published_at": "2026-11-25 13:32"
-        }
-      ],
-      "related": [],
-      "timeline": []
-    },
-    {
-      "id": "finance-005",
-      "category": "finance",
-      "title": "Bank of America 2027 Economic ",
-      "summary": "Bank of America 2027 Economic Outlook: AI Investment as the Top US Economy Uncertainty, Fed Projected to Hike Interest Rates 3 More Times 36Kr",
-      "key_facts": [
-        "36Kr 于 11-26 01:04 报道：Bank of America 2027 Economic Outlook: AI Investment as the Top US Eco"
-      ],
-      "entities": [
-        "36Kr"
-      ],
-      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
-      "confidence": "medium",
-      "importance": "medium",
-      "followups": [
-        "核实事件细节与后续进展"
-      ],
-      "sources": [
-        {
-          "title": "Bank of America 2027 Economic Outlook: AI Investment as the Top US Economy Uncertainty, Fed Projected to Hike Interest Rates 3 More Times - 36Kr",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xb3FtSDNtTGVMVVBkNDZIRXoxS2JCZ2Q1NGZlbDJXMUxnVVRta3hTV3J4NHZfXy1tazBieXFmNXp1d2JOU0VfLTg0N1VfUlFXTnk0?oc=5",
-          "publisher": "36Kr",
-          "published_at": "2026-11-26 01:04"
-        }
-      ],
-      "related": [],
-      "timeline": []
-    },
-    {
-      "id": "finance-006",
-      "category": "finance",
-      "title": "Beige Book confirms hot US eco",
-      "summary": "Beige Book confirms hot US economy and signs of wage pressure building Financial Times",
-      "key_facts": [
-        "Financial Times 于 11-25 22:17 报道：Beige Book confirms hot US economy and signs of wage pressure building"
-      ],
-      "entities": [
-        "Financial Times"
-      ],
-      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
-      "confidence": "medium",
-      "importance": "medium",
-      "followups": [
-        "核实事件细节与后续进展"
-      ],
-      "sources": [
-        {
-          "title": "Beige Book confirms hot US economy and signs of wage pressure building - Financial Times",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBwOUFXTEo5WXdJQ0s0dlpoRDM0cDhfbVF4aHY0NGdQV0p2RWNLTWJMOUVuazlBVU43X2luX1BHMV9tOVZTdHFtMVR2QWRHUTVuZnI2SVJuejU2ajVab1RtTWZvbjRvYnZTNlczb0NyblA?oc=5",
-          "publisher": "Financial Times",
-          "published_at": "2026-11-25 22:17"
-        }
-      ],
-      "related": [],
-      "timeline": []
-    },
-    {
       "id": "military-001",
       "category": "military",
-      "title": "After Pentagon Official Took O",
-      "summary": "After Pentagon Official Took Office, His Family Firm’s Clients Won Up to $3.5 Billion in Military Contracts Drop Site News",
+      "title": "Defense , AI , high tech : A d",
+      "summary": "Defense , AI , high tech : A delicate balance between armies and industry",
       "key_facts": [
-        "Drop Site News 于 11-25 20:18 报道：After Pentagon Official Took Office, His Family Firm’s Clients Won Up "
+        "japantoday.com 于 11-27 01:15 报道：Defense , AI , high tech : A delicate balance between armies and indus"
       ],
       "entities": [
-        "Drop Site News"
+        "japantoday.com"
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -432,10 +96,10 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "After Pentagon Official Took Office, His Family Firm’s Clients Won Up to $3.5 Billion in Military Contracts - Drop Site News",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1jV19kTGRGMWZsUmh0M1d2UTVidjEtWDkwcXd1djJHNVl5Q3NCTi1wQ3ZQWlpsa2ZHYW1WRlhIakNqV0VrZFdXLVJ2a0d6TGtpWmhkX2cydmNXX2NoY2tLa3pxdS1oN1gxdlp6bHNxZmk2THpmeWZVcG9R?oc=5",
-          "publisher": "Drop Site News",
-          "published_at": "2026-11-25 20:18"
+          "title": "Defense , AI , high tech : A delicate balance between armies and industry",
+          "url": "https://japantoday.com/category/features/opinions/defence-ai-high-tech-a-delicate-balance-between-armies-and-industry",
+          "publisher": "japantoday.com",
+          "published_at": "2026-11-27 01:15"
         }
       ],
       "related": [],
@@ -444,13 +108,13 @@ window.NEWS_DATA = {
     {
       "id": "military-002",
       "category": "military",
-      "title": "Blast heard, smoke seen rising",
-      "summary": "Blast heard, smoke seen rising over farmland near Iowa Army lead azide detonation site Defense News",
+      "title": "Dvojica Talijana ubijena u nap",
+      "summary": "Dvojica Talijana ubijena u napadu na objekt u Kuvajtu , Iran niječe umiješanost",
       "key_facts": [
-        "Defense News 于 11-25 15:55 报道：Blast heard, smoke seen rising over farmland near Iowa Army lead azide"
+        "vijesti.hrt.hr 于 11-26 22:15 报道：Dvojica Talijana ubijena u napadu na objekt u Kuvajtu , Iran niječe um"
       ],
       "entities": [
-        "Defense News"
+        "vijesti.hrt.hr"
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -460,10 +124,10 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "Blast heard, smoke seen rising over farmland near Iowa Army lead azide detonation site - Defense News",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS2U4aldmMGkwU0FSS3V0T2NWU0NzX1oyaXE5MUplMGtiRkV0QnJkSURhcWFyQU1Mam5vNzJMREZlRlUwNlBPZEJmTzJ2dHktVTNQM3VEd2Fwd01RQTQ2WlRlUXN2SUc4WTdhbU5Ndzh3LWZBZ2N3OGxmUFRGd2c2dTF4SS12a1pDUVY1OFlhSlBCX2tSdGxBVU1IdmRlNjhQXzN5UWFRMUJHTzItaUhxUVNBQUpMOENXbWNqazhrSUJnTTFhbEczTURjUQ?oc=5",
-          "publisher": "Defense News",
-          "published_at": "2026-11-25 15:55"
+          "title": "Dvojica Talijana ubijena u napadu na objekt u Kuvajtu , Iran niječe umiješanost",
+          "url": "https://vijesti.hrt.hr/svijet/dvoje-talijana-ubijeno-u-napadu-na-objekt-u-kuvajtu-iran-nijece-umijesanost-13029932",
+          "publisher": "vijesti.hrt.hr",
+          "published_at": "2026-11-26 22:15"
         }
       ],
       "related": [],
@@ -472,13 +136,13 @@ window.NEWS_DATA = {
     {
       "id": "military-003",
       "category": "military",
-      "title": "Building where US troops were ",
-      "summary": "Building where US troops were killed was largely unfortified: Officials ABC News - Breaking News, Latest News and Videos",
+      "title": "EL DÍA - Noticias de Bolivia p",
+      "summary": "EL DÍA - Noticias de Bolivia para el mundo",
       "key_facts": [
-        "ABC News - Breaking News, Latest News and Videos 于 11-25 13:26 报道：Building where US troops were killed was largely unfortified: Official"
+        "eldia.com.bo 于 11-26 22:30 报道：EL DÍA - Noticias de Bolivia para el mundo"
       ],
       "entities": [
-        "ABC News - Breaking News, Latest News and Videos"
+        "eldia.com.bo"
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -488,10 +152,10 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "Building where US troops were killed was largely unfortified: Officials - ABC News - Breaking News, Latest News and Videos",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd0V1eU1iclhQWVdnbWRodE9nT1ZRVThDWFpvYm51dnprTW1tbm1zNjE3Ykh1V1dOQ0VrTVlEVUxJc2U2OGJaUzNoQWFaUjlLS1JFT0tac2dkNnZwYnRISHdhaWFGVzVONW52eE5aRkgwdlFMcWFnOG5iN3E5X0V6WXhxbnZNN3c2VU80b1FBTTctQmVrLU1tTnVZN1RkSGJhWHI0bUJ30gGrAUFVX3lxTE1zQ3ZseUYtcnpQVVhRZW1Zd3FLMWNCeGdTdjFCSVhSN0ptLTlmUFJ4Z0ktTnAtejVtX1U1V0NncE5IMWVVLWJIVENOblpwX2dsOEJwTlV2WmFaYktPd2NvQXlJY2FCdEpReVhNV3BYOVU1Tm5wZ05yamE1WGpDajB0MlpGX1puLWZUVEM0ZnNQMU9DRDhkanZ5OXBRLTBWQ2xpMGswbjJBSXFndw?oc=5",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "published_at": "2026-11-25 13:26"
+          "title": "EL DÍA - Noticias de Bolivia para el mundo",
+          "url": "https://www.eldia.com.bo/2026-11-26/pais/ante-anuncios-de-protestas-ministro-senala-que-levantaran-bloqueos-con-dialogo-o-con-las-fuerzas-de-seguridad.html",
+          "publisher": "eldia.com.bo",
+          "published_at": "2026-11-26 22:30"
         }
       ],
       "related": [],
@@ -500,13 +164,13 @@ window.NEWS_DATA = {
     {
       "id": "military-004",
       "category": "military",
-      "title": "Cabinet of Ministers of Ukrain",
-      "summary": "Cabinet of Ministers of Ukraine - Government simplifies official approval of new defense products for military use Кабінет Міністрів України",
+      "title": "Iran đề nghị điều tra chung vụ",
+      "summary": "Iran đề nghị điều tra chung vụ tấn công UAV gây thương vong tại Kuwait",
       "key_facts": [
-        "Кабінет Міністрів України 于 11-25 19:54 报道：Cabinet of Ministers of Ukraine - Government simplifies official appro"
+        "baotintuc.vn 于 11-27 01:15 报道：Iran đề nghị điều tra chung vụ tấn công UAV gây thương vong tại Kuwait"
       ],
       "entities": [
-        "Кабінет Міністрів України"
+        "baotintuc.vn"
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -516,10 +180,10 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "Cabinet of Ministers of Ukraine - Government simplifies official approval of new defense products for military use - Кабінет Міністрів України",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVld3ZXU4U2xBUVdSVHZtOElPYmlGeEFSTVNXYlNHcUl5alhDT2ZOdDg3NVJWaVFzcVZhUW5pX3NoLWNVVTRHcExGY0tRWHJoRGdOaGZ2UEFCOU1WVXdSYXBibUp6NDlLOEQ1Qk9JUWtXV3ZfOEVMVGRiZGlzc0dMX1U4eUpETFNoS292ZENCeS1Gd1pTOTM3MnhVX0doenU5emYtRlh6S2ZnNVNrOTRna2tndmpYTzdMX2ctdG44dmxfUQ?oc=5",
-          "publisher": "Кабінет Міністрів України",
-          "published_at": "2026-11-25 19:54"
+          "title": "Iran đề nghị điều tra chung vụ tấn công UAV gây thương vong tại Kuwait",
+          "url": "https://baotintuc.vn/iran-de-nghi-dieu-tra-chung-vu-tan-cong-uav-gay-thuong-vong-tai-kuwait-post1406235.html",
+          "publisher": "baotintuc.vn",
+          "published_at": "2026-11-27 01:15"
         }
       ],
       "related": [],
@@ -528,13 +192,13 @@ window.NEWS_DATA = {
     {
       "id": "military-005",
       "category": "military",
-      "title": "Carla Babb Named Head of Conte",
-      "summary": "Carla Babb Named Head of Content for Military Times and Defense News Defense News",
+      "title": "Israeli strikes kill 10 in Gaz",
+      "summary": "Israeli strikes kill 10 in Gaza as Iranian drones kill 2 Italians in Kuwait , and other Mideast news",
       "key_facts": [
-        "Defense News 于 11-25 21:53 报道：Carla Babb Named Head of Content for Military Times and Defense News -"
+        "channel3000.com 于 11-26 22:15 报道：Israeli strikes kill 10 in Gaza as Iranian drones kill 2 Italians in K"
       ],
       "entities": [
-        "Defense News"
+        "channel3000.com"
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -544,10 +208,10 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "Carla Babb Named Head of Content for Military Times and Defense News - Defense News",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeGZ2Z3lrWGZsZ1ZmcWFBTS1RRzBnNTBSRG5JaHFVZkNWQ3VKaTNzS2pReExrc1ltbFplbTRFMGRqeXhRMUo4dHQ4Y2xXdlhyZW1rVFhpd2QwbmNEelRUd3N4cmJSaGZKamltTnF1T2h3dm5yemxMOXl3c3BiMnhfamlhTFV2czd3Q3hfRzhQODhTanZHbC01UGx5OGFCVV9OcEs2VGRmVGsyTGZnN3lLNjFRcw?oc=5",
-          "publisher": "Defense News",
-          "published_at": "2026-11-25 21:53"
+          "title": "Israeli strikes kill 10 in Gaza as Iranian drones kill 2 Italians in Kuwait , and other Mideast news",
+          "url": "https://www.channel3000.com/news/israeli-strikes-kill-10-in-gaza-as-iranian-drones-kill-2-italians-in-kuwait-and/article_a5139632-05e3-58ac-9a3c-1e4bb454f592.html",
+          "publisher": "channel3000.com",
+          "published_at": "2026-11-26 22:15"
         }
       ],
       "related": [],
@@ -556,13 +220,13 @@ window.NEWS_DATA = {
     {
       "id": "military-006",
       "category": "military",
-      "title": "Fort Buchanan Brings Military ",
-      "summary": "Fort Buchanan Brings Military Community Together for Thanksgiving U.S. Department of War (.gov)",
+      "title": "La minaccia russa fa paura , L",
+      "summary": "La minaccia russa fa paura , Londra allerta 100 . 000 riservisti : Tenetevi pronti alla chiamata",
       "key_facts": [
-        "U.S. Department of War (.gov) 于 11-25 18:54 报道：Fort Buchanan Brings Military Community Together for Thanksgiving - U."
+        "gazzettadelsud.it 于 11-26 22:30 报道：La minaccia russa fa paura , Londra allerta 100 . 000 riservisti : Ten"
       ],
       "entities": [
-        "U.S. Department of War (.gov)"
+        "gazzettadelsud.it"
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -572,218 +236,22 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "Fort Buchanan Brings Military Community Together for Thanksgiving - U.S. Department of War (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYVhuaVE4bnFFbGtWM2VjRVFqMnhUYWlfWG1PdXowOVJHV1h6ZTZyRFVrZ3hCTUNial9jVVg1SldfUkwwdVpxVVZucVpkLUVvMW45QVoxSHAtdWNyYkpSY2VLQ0ZOd3g3TWlsMEhCWTFqdnBLNW1IWUZEUWxiY3JadllMZzFqTWNCQWV0aFhmVFQzRXRYT091ZENWaWVkdjIxYkFYUnhEZjB5MEUwT190SXh6NHFjaGtMdDFiRnpCX0E5aHA1TTZR?oc=5",
-          "publisher": "U.S. Department of War (.gov)",
-          "published_at": "2026-11-25 18:54"
+          "title": "La minaccia russa fa paura , Londra allerta 100 . 000 riservisti : Tenetevi pronti alla chiamata",
+          "url": "https://gazzettadelsud.it/articoli/mondo/2026/11/26/la-minaccia-russa-fa-paura-londra-allerta-100-000-riservisti-tenetevi-pronti-alla-chiamata-95a62868-3250-4f2f-8da4-ba98342be8cf/",
+          "publisher": "gazzettadelsud.it",
+          "published_at": "2026-11-26 22:30"
         }
       ],
       "related": [],
       "timeline": []
     },
     {
-      "id": "politics_cn-001",
-      "category": "politics_cn",
-      "title": "24日美中峰会在即…G20共同声明因中国流产 - 朝鮮日報中",
-      "summary": "24日美中峰会在即…G20共同声明因中国流产 朝鮮日報中文版",
+      "id": "economy-001",
+      "category": "economy",
+      "title": "2006年4月20日这一天发生了什么？ - 汽车之家",
+      "summary": "2006年4月20日这一天发生了什么？ 汽车之家",
       "key_facts": [
-        "朝鮮日報中文版 于 11-25 11:37 报道：24日美中峰会在即…G20共同声明因中国流产 - 朝鮮日報中文版"
-      ],
-      "entities": [
-        "朝鮮日報中文版"
-      ],
-      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
-      "confidence": "medium",
-      "importance": "medium",
-      "followups": [
-        "核实事件细节与后续进展"
-      ],
-      "sources": [
-        {
-          "title": "24日美中峰会在即…G20共同声明因中国流产 - 朝鮮日報中文版",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSHQ2UTF2N0NHSTJNMENqcDlwUWtIblMzY0FrQ1ZOQ2R1cWxZRFBKRnIyVzYxaXU1cFZMU2RWbWNhWTE3QW56RkU3b3h1OUVXa0k3V01nb3ZPVmhpUDRCMnRBWk93YzI3ZnU2cGt3OVduc2NjNHdNajQ5eGE3cWpLVlhrekRTOENyZk5VM3NFeE5zZw?oc=5",
-          "publisher": "朝鮮日報中文版",
-          "published_at": "2026-11-25 11:37"
-        }
-      ],
-      "related": [],
-      "timeline": []
-    },
-    {
-      "id": "politics_cn-002",
-      "category": "politics_cn",
-      "title": "China, South Sudan Propose Gov",
-      "summary": "China, South Sudan Propose Governance Research Centre Wisevoter",
-      "key_facts": [
-        "Wisevoter 于 11-25 10:46 报道：China, South Sudan Propose Governance Research Centre - Wisevoter"
-      ],
-      "entities": [
-        "Wisevoter"
-      ],
-      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
-      "confidence": "medium",
-      "importance": "medium",
-      "followups": [
-        "核实事件细节与后续进展"
-      ],
-      "sources": [
-        {
-          "title": "China, South Sudan Propose Governance Research Centre - Wisevoter",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaTRlSFoxMk81YnFDU0Q2U2ViQXVxM2xRV19PeW9NSU5KbnFvSzdOUjJCcVJ3ODhmSGoxMzZfRTRCa1VrVjR5Z3hEcTFDVGwwcU41VVYxWVh5TlZSNTZnbG81eW5xNTVCMlVCNHBJQkQ2bE9Td0lOd284RkkzaGU0WEthd09JRWN2OWZZ?oc=5",
-          "publisher": "Wisevoter",
-          "published_at": "2026-11-25 10:46"
-        }
-      ],
-      "related": [],
-      "timeline": []
-    },
-    {
-      "id": "politics_cn-003",
-      "category": "politics_cn",
-      "title": "China-Zimbabwe trade projected",
-      "summary": "China-Zimbabwe trade projected to reach US$6bn in 2026 Herald.co.zw",
-      "key_facts": [
-        "Herald.co.zw 于 11-25 19:20 报道：China-Zimbabwe trade projected to reach US$6bn in 2026 - Herald.co.zw"
-      ],
-      "entities": [
-        "Herald.co.zw"
-      ],
-      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
-      "confidence": "medium",
-      "importance": "medium",
-      "followups": [
-        "核实事件细节与后续进展"
-      ],
-      "sources": [
-        {
-          "title": "China-Zimbabwe trade projected to reach US$6bn in 2026 - Herald.co.zw",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVXFOWjV2RlNwVHRyMnZiX25aOFRVTkdET3VEQ2hiODFrMF96WFk5Z2FUWFdDQ0tlU2lvNGV5Rm1UaGx4S1dWQk5YUEdWVWtEVnp1a002alUtclNCeUJfaWVYNkwtV2lGUEFHTFJtVFZ1dnZZa05LLXZNemJTNWFSelpxMVdWam5WdndHYUxR?oc=5",
-          "publisher": "Herald.co.zw",
-          "published_at": "2026-11-25 19:20"
-        }
-      ],
-      "related": [],
-      "timeline": []
-    },
-    {
-      "id": "politics_cn-004",
-      "category": "politics_cn",
-      "title": "China’s Soft Espionage: The Te",
-      "summary": "China’s Soft Espionage: The Technology Transfers That Don’t Make Headlines The Diplomat – Asia-Pacific Current Affairs Magazine",
-      "key_facts": [
-        "The Diplomat – Asia-Pacific Current Affairs Magazine 于 11-25 19:43 报道：China’s Soft Espionage: The Technology Transfers That Don’t Make Headl"
-      ],
-      "entities": [
-        "The Diplomat – Asia-Pacific Current Affairs Magazine"
-      ],
-      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
-      "confidence": "medium",
-      "importance": "medium",
-      "followups": [
-        "核实事件细节与后续进展"
-      ],
-      "sources": [
-        {
-          "title": "China’s Soft Espionage: The Technology Transfers That Don’t Make Headlines - The Diplomat – Asia-Pacific Current Affairs Magazine",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcVJDOHptdzNLdENfYW53ckpXeFdMQXhXMmNTWU5xX1g3N3Y0WGxtbWJzN2hGUFFiY1VOc2NQVjVjdUs4djVHT2p3TFBRbmZUOE03Wlp3X01BTE1MdFBXZjRJa1RQX0hZOEtGOHZMdXJ2YUNDVUxGUm9NMlM3T2R2V1U4dzBDZmNzWVdsS055N2dTWXF0c2RfNU9OY2JoeTBIc2VsX3lwOA?oc=5",
-          "publisher": "The Diplomat – Asia-Pacific Current Affairs Magazine",
-          "published_at": "2026-11-25 19:43"
-        }
-      ],
-      "related": [],
-      "timeline": []
-    },
-    {
-      "id": "politics_cn-005",
-      "category": "politics_cn",
-      "title": "Concerns Canada’s EV policy op",
-      "summary": "Concerns Canada’s EV policy opens door to Chinese ‘Trojan horse’ CTV News",
-      "key_facts": [
-        "CTV News 于 11-25 17:48 报道：Concerns Canada’s EV policy opens door to Chinese ‘Trojan horse’ - CTV"
-      ],
-      "entities": [
-        "CTV News"
-      ],
-      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
-      "confidence": "medium",
-      "importance": "medium",
-      "followups": [
-        "核实事件细节与后续进展"
-      ],
-      "sources": [
-        {
-          "title": "Concerns Canada’s EV policy opens door to Chinese ‘Trojan horse’ - CTV News",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZVNMbEphNFZpQXVQbHR4U1Y2VGJpZXNQcVU5cEJ1VXU1bm9hTnJNWmxyTEdwMnBJYVRTaHlac1hyWkl0NE5ZczhqdXVJeGZ3S0NLNWRDcDJXY0RBNW14WGFmR0U1NHFpQ29LeFN4NENJNjdoLUczcTNhV0ZudmZpUVEtSHZObmxUNWQ3S3haYThrQnBZSGNsTF9pRGh6aWQxNnItSHFldFVLUVBl?oc=5",
-          "publisher": "CTV News",
-          "published_at": "2026-11-25 17:48"
-        }
-      ],
-      "related": [],
-      "timeline": []
-    },
-    {
-      "id": "politics_cn-006",
-      "category": "politics_cn",
-      "title": "New UK trade rules could resul",
-      "summary": "New UK trade rules could result in de facto Israel boycott, warns cross-party group of peers The Jewish Chronicle",
-      "key_facts": [
-        "The Jewish Chronicle 于 11-25 17:32 报道：New UK trade rules could result in de facto Israel boycott, warns cros"
-      ],
-      "entities": [
-        "The Jewish Chronicle"
-      ],
-      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
-      "confidence": "medium",
-      "importance": "medium",
-      "followups": [
-        "核实事件细节与后续进展"
-      ],
-      "sources": [
-        {
-          "title": "New UK trade rules could result in de facto Israel boycott, warns cross-party group of peers - The Jewish Chronicle",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdTVfdGxqYXhFWW13MllmTWdnNnRwSUJsbV9oVU5YX3ZwdXdJUE11YnRJdWtUUW00S2EwbUpVVVliMVBHSWlnTUZoTkEzZXExc0FRb3Bfa1o0aFFZUlRNNXZWcXlzQjZwazh0NjZGZUZXUnc4N0s3WUI5X3RBbUlENkxmazBKX1Y2RUJzb3R5RmdpX0l2VEE?oc=5",
-          "publisher": "The Jewish Chronicle",
-          "published_at": "2026-11-25 17:32"
-        }
-      ],
-      "related": [],
-      "timeline": []
-    },
-    {
-      "id": "politics_eu-001",
-      "category": "politics_eu",
-      "title": "17年来首次！COP31无果而终：沙特反对“摆脱化石燃料”，",
-      "summary": "17年来首次！COP31无果而终：沙特反对“摆脱化石燃料”，欧盟拒妥协 第一财经",
-      "key_facts": [
-        "第一财经 于 11-25 21:09 报道：17年来首次！COP31无果而终：沙特反对“摆脱化石燃料”，欧盟拒妥协 - 第一财经"
-      ],
-      "entities": [
-        "第一财经"
-      ],
-      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
-      "confidence": "medium",
-      "importance": "medium",
-      "followups": [
-        "核实事件细节与后续进展"
-      ],
-      "sources": [
-        {
-          "title": "17年来首次！COP31无果而终：沙特反对“摆脱化石燃料”，欧盟拒妥协 - 第一财经",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1uN29CM3A0UmRfekMtSUJBdENhQXVJWTlnY1hzTXdvUFV2R0Z1MDdmXzJQdTEwb2JvWjJaMmtaWFlwVXJ2OGVKQ240OVlBZVNnVzZF?oc=5",
-          "publisher": "第一财经",
-          "published_at": "2026-11-25 21:09"
-        }
-      ],
-      "related": [],
-      "timeline": []
-    },
-    {
-      "id": "politics_eu-002",
-      "category": "politics_eu",
-      "title": "200天19万辆，欧盟对中国混动“临时”关门 - 汽车之家",
-      "summary": "200天19万辆，欧盟对中国混动“临时”关门 汽车之家",
-      "key_facts": [
-        "汽车之家 于 11-25 15:57 报道：200天19万辆，欧盟对中国混动“临时”关门 - 汽车之家"
+        "汽车之家 于 11-26 10:42 报道：2006年4月20日这一天发生了什么？ - 汽车之家"
       ],
       "entities": [
         "汽车之家"
@@ -796,10 +264,542 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "200天19万辆，欧盟对中国混动“临时”关门 - 汽车之家",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1Q1lMalZoMkFCUWZnb3doc1R4d1NjMlI2LThZbHpGcVU4LUhwNVVQbkF2ZDZGenA3OTlhV2pVYnA3SGlOeGNUOGV2MWRDVlduZ1d0ZGN6dmt1RnM?oc=5",
+          "title": "2006年4月20日这一天发生了什么？ - 汽车之家",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9obGpxWnRUNzU2OGpQVGFaTkdDdDF4cGx2YThSX1Bid1hVTXRqa2lFOXM1N3hXZnFCc1A5Q0lrcFIwOEFxNTg1Z3lGSWc4Qk9iS1V6N1h6TG8?oc=5",
           "publisher": "汽车之家",
-          "published_at": "2026-11-25 15:57"
+          "published_at": "2026-11-26 10:42"
+        }
+      ],
+      "related": [],
+      "timeline": []
+    },
+    {
+      "id": "economy-002",
+      "category": "economy",
+      "title": "2026 Technology Media & Teleco",
+      "summary": "2026 Technology Media & Telecoms CEO Outlook kpmg.com",
+      "key_facts": [
+        "kpmg.com 于 11-26 20:11 报道：2026 Technology Media & Telecoms CEO Outlook - kpmg.com"
+      ],
+      "entities": [
+        "kpmg.com"
+      ],
+      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
+      "confidence": "medium",
+      "importance": "medium",
+      "followups": [
+        "核实事件细节与后续进展"
+      ],
+      "sources": [
+        {
+          "title": "2026 Technology Media & Telecoms CEO Outlook - kpmg.com",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ0lhQ2ZYRlJSNWpCbEpiV3dQN2JEY1RPdFM4VzhQdnVtMXF3b1dNWTJlNTU1cThETDJkclNwV1M1RWdtZHNGQnNwdjJUUXJ0Q3FmR09Lc2szUlVCS0tTSFZjRDFCanNIaUJEQ0d4QkwteTFzeWN6c1Z2aEtKODJiSmZ3MGVBQVcyVDJQQU81cExxS3dm?oc=5",
+          "publisher": "kpmg.com",
+          "published_at": "2026-11-26 20:11"
+        }
+      ],
+      "related": [],
+      "timeline": []
+    },
+    {
+      "id": "economy-003",
+      "category": "economy",
+      "title": "71% of institutional investors",
+      "summary": "71% of institutional investors worry a capex slowdown could undermine growth in 2027: survey Benefits Canada.com",
+      "key_facts": [
+        "Benefits Canada.com 于 11-26 16:07 报道：71% of institutional investors worry a capex slowdown could undermine "
+      ],
+      "entities": [
+        "Benefits Canada.com"
+      ],
+      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
+      "confidence": "medium",
+      "importance": "medium",
+      "followups": [
+        "核实事件细节与后续进展"
+      ],
+      "sources": [
+        {
+          "title": "71% of institutional investors worry a capex slowdown could undermine growth in 2027: survey - Benefits Canada.com",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxORTUxaHNkZVAwQ0hzU1BnQ0ozVTM3UkQ3SFNpOTJZT3kyeUE1N1BSajQwa1M4bkw1dVU1eUJTa1VkRlNsSnRtbkYxZm1MZ2ZtajNOLU1rUjNrMUVmNXFHcjBwOWVCVFdqYWh6ZmtlZ2MyV09hVVVGMWd6aU53bXFuYWVzTVdHaW9WVTBIazdFZU04RlVCT0tFOFNyYkNpLXhzMlktblhaNTNJcFliUmRpVk5uWk1PX1pzQmFHb2YtSGZZcjYyRVZCYTZXYWdsckNoZTU0eGdiRVpmNFlyejQwQl8tTHVOTTZKQjkzUGRWdjdRdw?oc=5",
+          "publisher": "Benefits Canada.com",
+          "published_at": "2026-11-26 16:07"
+        }
+      ],
+      "related": [],
+      "timeline": []
+    },
+    {
+      "id": "economy-004",
+      "category": "economy",
+      "title": "Albanese Faces Mortgage Cost Q",
+      "summary": "Albanese Faces Mortgage Cost Questions as Global Lending Shifts Demokratis.co.id",
+      "key_facts": [
+        "Demokratis.co.id 于 11-26 14:23 报道：Albanese Faces Mortgage Cost Questions as Global Lending Shifts - Demo"
+      ],
+      "entities": [
+        "Demokratis.co.id"
+      ],
+      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
+      "confidence": "medium",
+      "importance": "medium",
+      "followups": [
+        "核实事件细节与后续进展"
+      ],
+      "sources": [
+        {
+          "title": "Albanese Faces Mortgage Cost Questions as Global Lending Shifts - Demokratis.co.id",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBOcm5GWkt6T0gwa1JFRm8wY05xYm4tUE53TEpHdjllTE50b01KUVdZOXJyZzA5RzdrYUItODZNaFZYajZKcnBfUU12RzNkdmJkVjdtekpBb2d2MlpqejVrZFB3OHd0T0gweW5V?oc=5",
+          "publisher": "Demokratis.co.id",
+          "published_at": "2026-11-26 14:23"
+        }
+      ],
+      "related": [],
+      "timeline": []
+    },
+    {
+      "id": "economy-005",
+      "category": "economy",
+      "title": "Another Cold War? Trump Turns ",
+      "summary": "Another Cold War? Trump Turns To Tariffs To Challenge China's Global Trade Dominance Outlook India",
+      "key_facts": [
+        "Outlook India 于 11-26 12:52 报道：Another Cold War? Trump Turns To Tariffs To Challenge China's Global T"
+      ],
+      "entities": [
+        "Outlook India"
+      ],
+      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
+      "confidence": "medium",
+      "importance": "medium",
+      "followups": [
+        "核实事件细节与后续进展"
+      ],
+      "sources": [
+        {
+          "title": "Another Cold War? Trump Turns To Tariffs To Challenge China's Global Trade Dominance - Outlook India",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPR3Y2Q2tERk5tX1RSc1NpRkJ3R183cW5ERzFUdjZrc0RWaF95XzBzQkM1cEI0R1JyY0NNcXZ5NTJBYURyaS1oVUpmNE1CVGgxUWdneFMyLWJFOTd2UndmYUxYWUl3WHoxWGN6TkpfYUk2TVAwYVkxbmRLbDJHYXhLY2ZiS1pEblRPQ0wyYjF5YUZEYlNnTW1IY1lFY2x2VjdESFJXQXN5b3pYN0N2UVN6Yi1nWFlmNG4tc1NDcTdmU3pmUEXSAdABQVVfeXFMUHYyZ05zZWxveUZZSHl2bGtaYWRSbFd4ZHlKdW91ZWhERVg4Y1ZYNWJ3eWxaRzNaNVJkNUM2TmJiZEdlWTBnVGJlZWRVQnZkbC1FR1BhQ3RrTXVmeTFDYmpVOUh6UC1iOVh6NzB1SS1iQjF2R2l5Y2V6ZXhtY3F5ajlHWkJSV0x6d1F5c1Zrd3hxRXRZZVMtZ1VPMWxLSlJjaVJvVV83cFI5WnhDQnd3NkxieGJqdFZfeTJFaS02TElPN0JVeE5aTEI0RlhwU2hLdA?oc=5",
+          "publisher": "Outlook India",
+          "published_at": "2026-11-26 12:52"
+        }
+      ],
+      "related": [],
+      "timeline": []
+    },
+    {
+      "id": "economy-006",
+      "category": "economy",
+      "title": "Bank of Korea Raises Rate to 3",
+      "summary": "Bank of Korea Raises Rate to 3.25% Amid AI Chip Boom JournalArta",
+      "key_facts": [
+        "JournalArta 于 11-26 11:31 报道：Bank of Korea Raises Rate to 3.25% Amid AI Chip Boom - JournalArta"
+      ],
+      "entities": [
+        "JournalArta"
+      ],
+      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
+      "confidence": "medium",
+      "importance": "medium",
+      "followups": [
+        "核实事件细节与后续进展"
+      ],
+      "sources": [
+        {
+          "title": "Bank of Korea Raises Rate to 3.25% Amid AI Chip Boom - JournalArta",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeDJCMTB2WUViSzZLQnVfamN4SVZzTlZKRGpxRmVJSF9lcng0WGVwLVRLVURfUk9MeFNXZkppWktvODVQWFdqTlg5ZlZIMl92V3B1dlFtU1h1NE5VcndwZnlSSXF0SkVPb3pVUzg4cm51ckFIYzdQTGZCSWpNako2TnZOdDhkb202OFR0UFFqSQ?oc=5",
+          "publisher": "JournalArta",
+          "published_at": "2026-11-26 11:31"
+        }
+      ],
+      "related": [],
+      "timeline": []
+    },
+    {
+      "id": "finance-001",
+      "category": "finance",
+      "title": "Anthropic records 104 billion ",
+      "summary": "Anthropic records 104 billion dollar loss as infrastructure spending raises corporate debt risks PravdaReport",
+      "key_facts": [
+        "PravdaReport 于 11-27 00:34 报道：Anthropic records 104 billion dollar loss as infrastructure spending r"
+      ],
+      "entities": [
+        "PravdaReport"
+      ],
+      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
+      "confidence": "medium",
+      "importance": "medium",
+      "followups": [
+        "核实事件细节与后续进展"
+      ],
+      "sources": [
+        {
+          "title": "Anthropic records 104 billion dollar loss as infrastructure spending raises corporate debt risks - PravdaReport",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc29uU2lyTmt4eFh4WGJ3bzN6THRsdkEyM0FRN0J6UUpBNmRPeTZiUkVOWDBoM3pZQnRSS0w1Q0xQY0d2dDNRYWtpdjNXa3plWU5xTmptUURPcDhwT2NqY0lFOFJkSHM0Z083dWxvQ1pBVVpkWXpUc0I3cU1GRHI3QWVDX0VBQk1vNkp3UjdUdWVmcEpya2N0Rw?oc=5",
+          "publisher": "PravdaReport",
+          "published_at": "2026-11-27 00:34"
+        }
+      ],
+      "related": [],
+      "timeline": []
+    },
+    {
+      "id": "finance-002",
+      "category": "finance",
+      "title": "Aurra Markets：【 美元指数走势预测】美联储加息",
+      "summary": "Aurra Markets：【 美元指数走势预测】美联储加息预期升温，多头守住 105.00 关口 英为财情 Investing.com",
+      "key_facts": [
+        "英为财情 Investing.com 于 11-26 10:50 报道：Aurra Markets：【 美元指数走势预测】美联储加息预期升温，多头守住 105.00 关口 - 英为财情 Investing.com"
+      ],
+      "entities": [
+        "英为财情 Investing.com"
+      ],
+      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
+      "confidence": "medium",
+      "importance": "medium",
+      "followups": [
+        "核实事件细节与后续进展"
+      ],
+      "sources": [
+        {
+          "title": "Aurra Markets：【 美元指数走势预测】美联储加息预期升温，多头守住 105.00 关口 - 英为财情 Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE53QmlnY3V0SVpDZ0tpRVIzMl9JOWYyaFZURnF2azNmWllhdXREU0pqekFCR2YwQ2tWY0VzeU83UFhnNjRmb0NZOXJBN0pibnFGVVE4bXNjcFRWNVdrWTlQUQ?oc=5",
+          "publisher": "英为财情 Investing.com",
+          "published_at": "2026-11-26 10:50"
+        }
+      ],
+      "related": [],
+      "timeline": []
+    },
+    {
+      "id": "finance-003",
+      "category": "finance",
+      "title": "Aurra Markets：美国 10 月 PCE 通胀率升",
+      "summary": "Aurra Markets：美国 10 月 PCE 通胀率升至 3.8%，美联储政策面临压力 英为财情 Investing.com",
+      "key_facts": [
+        "英为财情 Investing.com 于 11-26 10:50 报道：Aurra Markets：美国 10 月 PCE 通胀率升至 3.8%，美联储政策面临压力 - 英为财情 Investing.com"
+      ],
+      "entities": [
+        "英为财情 Investing.com"
+      ],
+      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
+      "confidence": "medium",
+      "importance": "medium",
+      "followups": [
+        "核实事件细节与后续进展"
+      ],
+      "sources": [
+        {
+          "title": "Aurra Markets：美国 10 月 PCE 通胀率升至 3.8%，美联储政策面临压力 - 英为财情 Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1iTHZ5SzJaTFFHT3MxNHI0VzE5QkgxWnBhbVNtck1xWXJZUHdkX0JMdEkwOVVKN2ZZSjRiMlItLU1KRWRGQ2pUeWotbzRMUE9hV09OTjhCNEtkVVhQazhfVg?oc=5",
+          "publisher": "英为财情 Investing.com",
+          "published_at": "2026-11-26 10:50"
+        }
+      ],
+      "related": [],
+      "timeline": []
+    },
+    {
+      "id": "finance-004",
+      "category": "finance",
+      "title": "Dollar lingers near 22-month p",
+      "summary": "Dollar lingers near 22-month peak as AI worries simmer Free Malaysia Today",
+      "key_facts": [
+        "Free Malaysia Today 于 11-27 01:34 报道：Dollar lingers near 22-month peak as AI worries simmer - Free Malaysia"
+      ],
+      "entities": [
+        "Free Malaysia Today"
+      ],
+      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
+      "confidence": "medium",
+      "importance": "medium",
+      "followups": [
+        "核实事件细节与后续进展"
+      ],
+      "sources": [
+        {
+          "title": "Dollar lingers near 22-month peak as AI worries simmer - Free Malaysia Today",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMVFrek1YVHpYNDFFdmpMa1ZQanQ0MkluQlBibWp5dVM4QjF4cHp2MmFzeWFRRkNRaGgwSjJwNmllQ0c0emZsM2h5alhodlBSZUNYZVMzSzdHRXcwam1lZGNMYThHWHRlLXZGTlVydng4ZmUtVUtlVDBTM0plVXJuM2xqcHo0RDFnVjZ4WDBWR3hwLXlNME9GUUlHN1JoMEVXZy01My00U3BvTXI3XzFCSzRRaXNhTjhtS1E0?oc=5",
+          "publisher": "Free Malaysia Today",
+          "published_at": "2026-11-27 01:34"
+        }
+      ],
+      "related": [],
+      "timeline": []
+    },
+    {
+      "id": "finance-005",
+      "category": "finance",
+      "title": "Fed holds interest rates stead",
+      "summary": "Fed holds interest rates steady as inflation hits 3-year high ABC News - Breaking News, Latest News and Videos",
+      "key_facts": [
+        "ABC News - Breaking News, Latest News and Videos 于 11-27 01:10 报道：Fed holds interest rates steady as inflation hits 3-year high - ABC Ne"
+      ],
+      "entities": [
+        "ABC News - Breaking News, Latest News and Videos"
+      ],
+      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
+      "confidence": "medium",
+      "importance": "medium",
+      "followups": [
+        "核实事件细节与后续进展"
+      ],
+      "sources": [
+        {
+          "title": "Fed holds interest rates steady as inflation hits 3-year high - ABC News - Breaking News, Latest News and Videos",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObE9meWdub2FOS2dVY0pKYUxReEZrZGJhMnIyNG9JTEJpZlhISXFXMlZGZk1kSjRPWlRPejV6aTdXSHZnWWFkeHBvZVEydk9Sa1dLallzVGtIenB2OV9yR2daTDNrb2psQW5uZ2JSYnlOMUxmYzExZ1NBT1V3OGVlaERaZ1pPaVYwTDUyNVJCR1lJUkpoRFhhMzJha09TOVXSAaQBQVVfeXFMUGc0WHV5TzVaUnlTZjZ2Y1h3RHdSSnc0LWZoTzF3Uzk4WFkyQVByY1kxNkNoeDREX3Z6TDRSOUsyMmFvbHBGUWNlWUlXZGxJZFN6RFB5NWREWWtlRXUyMXJyUUlMTXo0cmh4NlpfT1pMUklyOGJLb1F5SDdteTItMzl5NVQybXk5U2ZQWkRGYmhnU0dJZ2hoTEFjb3FLaktRcjZNbDc?oc=5",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "published_at": "2026-11-27 01:10"
+        }
+      ],
+      "related": [],
+      "timeline": []
+    },
+    {
+      "id": "finance-006",
+      "category": "finance",
+      "title": "Fed officials have differing v",
+      "summary": "Fed officials have differing views on inflation; what will the interest rate trajectory be? Vietnam.vn",
+      "key_facts": [
+        "Vietnam.vn 于 11-27 01:53 报道：Fed officials have differing views on inflation; what will the interes"
+      ],
+      "entities": [
+        "Vietnam.vn"
+      ],
+      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
+      "confidence": "medium",
+      "importance": "medium",
+      "followups": [
+        "核实事件细节与后续进展"
+      ],
+      "sources": [
+        {
+          "title": "Fed officials have differing views on inflation; what will the interest rate trajectory be? - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ0ozbTUxVW96aWZiTWtJTnBrMlNDWW1ndDNFTEdaMmtfelgxeFpHMHQ5UUJmOWVSU1VjbnZ0REJBcFJfOXRmWW9kcVJrQVhCOFlsZFIwVFkwRnI0c2Q2cl9OMkp2RW9VdVBBQ0NoOWlUdVcwZGtaTjB2bC1Bc1BOZG9JbVgtVVZ0VWlQSkVUallMYVg5WVk5R2tzQklmdC1w?oc=5",
+          "publisher": "Vietnam.vn",
+          "published_at": "2026-11-27 01:53"
+        }
+      ],
+      "related": [],
+      "timeline": []
+    },
+    {
+      "id": "politics_cn-001",
+      "category": "politics_cn",
+      "title": "8000亿MLF+5000亿逆回购 央行“组合拳”精准呵护流",
+      "summary": "8000亿MLF+5000亿逆回购 央行“组合拳”精准呵护流动性 中国经营网",
+      "key_facts": [
+        "中国经营网 于 11-26 20:38 报道：8000亿MLF+5000亿逆回购 央行“组合拳”精准呵护流动性 - 中国经营网"
+      ],
+      "entities": [
+        "中国经营网"
+      ],
+      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
+      "confidence": "medium",
+      "importance": "medium",
+      "followups": [
+        "核实事件细节与后续进展"
+      ],
+      "sources": [
+        {
+          "title": "8000亿MLF+5000亿逆回购 央行“组合拳”精准呵护流动性 - 中国经营网",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBkaHhleXl2Z1hhYTRhaWtFN0c2MWx3TE5jZF94LUg5d1NrajMzbFF4SDl1ZHAxZ0pvU1I2N1ZsZjJBVkNsWExyaV9sSzE0X1d4RnJwMm45a19aTWx0bEgxTTZn?oc=5",
+          "publisher": "中国经营网",
+          "published_at": "2026-11-26 20:38"
+        }
+      ],
+      "related": [],
+      "timeline": []
+    },
+    {
+      "id": "politics_cn-002",
+      "category": "politics_cn",
+      "title": "A stroll to the Chinese embass",
+      "summary": "A stroll to the Chinese embassy ended Australia's great anxiety in the Pacific ABC News & Headlines – Australian Broadcasting Corporation",
+      "key_facts": [
+        "ABC News & Headlines – Australian Broadcasting Corporation 于 11-26 18:56 报道：A stroll to the Chinese embassy ended Australia's great anxiety in the"
+      ],
+      "entities": [
+        "ABC News & Headlines – Australian Broadcasting Corporation"
+      ],
+      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
+      "confidence": "medium",
+      "importance": "medium",
+      "followups": [
+        "核实事件细节与后续进展"
+      ],
+      "sources": [
+        {
+          "title": "A stroll to the Chinese embassy ended Australia's great anxiety in the Pacific - ABC News & Headlines – Australian Broadcasting Corporation",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVF9lekRsRkpQMkhNaDJjakZ6MjBCaGFsMjh3WDc0eTI4RkFPR0c0SFM2OHllOGZJQnNzVmZpWkNudEF5M05UNFhWRk1PcVBFTjIxeHpNYXZES21taGNqb3FfbjRjLVdjRFFCdElROXltT2l4ZFdKVVVYc1pjc0lIYTd6MXJlaTBqR0NkVWt2cF91MDg?oc=5",
+          "publisher": "ABC News & Headlines – Australian Broadcasting Corporation",
+          "published_at": "2026-11-26 18:56"
+        }
+      ],
+      "related": [],
+      "timeline": []
+    },
+    {
+      "id": "politics_cn-003",
+      "category": "politics_cn",
+      "title": "ASML Holding stock: Dutch gove",
+      "summary": "ASML Holding stock: Dutch government resists US China curbs ad-hoc-news.de",
+      "key_facts": [
+        "ad-hoc-news.de 于 11-26 16:13 报道：ASML Holding stock: Dutch government resists US China curbs - ad-hoc-n"
+      ],
+      "entities": [
+        "ad-hoc-news.de"
+      ],
+      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
+      "confidence": "medium",
+      "importance": "medium",
+      "followups": [
+        "核实事件细节与后续进展"
+      ],
+      "sources": [
+        {
+          "title": "ASML Holding stock: Dutch government resists US China curbs - ad-hoc-news.de",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZ240bEVCVXdmdEZkMXhoRDBZUWtGd0hFUko0a1d3SmhsWDQ3b1hYb3NpTkJyTHhlREpsM1VzbmFOLXZUVkt2LU1CQXpvMldwWGktMnowR3dxa2F3VjdwV2dVcVpXR1ZvWVI4RkJ1NjVrRkJfOUp2dGQ3LUJMSDl4VENnSEk1U2xaUXc0MDNrbjZtMm5Ja3BwcXFWeWIxYTZpb20zUTdqM0Q1ZUc3Y04xTS1aU3VuOTdlZDBuVG9R?oc=5",
+          "publisher": "ad-hoc-news.de",
+          "published_at": "2026-11-26 16:13"
+        }
+      ],
+      "related": [],
+      "timeline": []
+    },
+    {
+      "id": "politics_cn-004",
+      "category": "politics_cn",
+      "title": "China Has the State Behind Its",
+      "summary": "China Has the State Behind Its Push... Will Korea's Semiconductor Support Be Felt on the Ground? [China Shock, Korea's Industries on the Brink | Semiconductors] 7 아시아경제",
+      "key_facts": [
+        "아시아경제 于 11-26 22:30 报道：China Has the State Behind Its Push... Will Korea's Semiconductor Supp"
+      ],
+      "entities": [
+        "아시아경제"
+      ],
+      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
+      "confidence": "medium",
+      "importance": "medium",
+      "followups": [
+        "核实事件细节与后续进展"
+      ],
+      "sources": [
+        {
+          "title": "China Has the State Behind Its Push... Will Korea's Semiconductor Support Be Felt on the Ground? [China Shock, Korea's Industries on the Brink | Semiconductors] 7 - 아시아경제",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE81Wmhvd3FBaE5YNHY3MUtNMnZNZU1UUmNRZXh0SFRSdDlkZGpza0k0blh3MUpOR0JvQW1DMGlCdUtFcEZfWDQwUnVHc01PQ0puX2xCaS14UFRvQVBycU1aYmU3OWo?oc=5",
+          "publisher": "아시아경제",
+          "published_at": "2026-11-26 22:30"
+        }
+      ],
+      "related": [],
+      "timeline": []
+    },
+    {
+      "id": "politics_cn-005",
+      "category": "politics_cn",
+      "title": "China and other US trading par",
+      "summary": "China and other US trading partners hit back at Trump's new tariff plans The Killeen Daily Herald",
+      "key_facts": [
+        "The Killeen Daily Herald 于 11-26 14:13 报道：China and other US trading partners hit back at Trump's new tariff pla"
+      ],
+      "entities": [
+        "The Killeen Daily Herald"
+      ],
+      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
+      "confidence": "medium",
+      "importance": "medium",
+      "followups": [
+        "核实事件细节与后续进展"
+      ],
+      "sources": [
+        {
+          "title": "China and other US trading partners hit back at Trump's new tariff plans - The Killeen Daily Herald",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRHZLWW1pZGM2SWVKOHUtSUhKaFRLN1V5OWM1Mk1qUVY1MEg4UHVxTHpnd3BUZmFDeGtZZ3loeW8zMHBnSkFOWUsxbl9rVTdHYnVXWkt1ZXdGdXo1NUJnYk5ROHNCdFVremFKaTV5RDNEdWJUYU1xNk0yRnUyNkZnMkd6cGc5YmtPN3VvU0ZxSGs1YUhlY0FkVFBJdkNoQmVWUnl6QUt1SF9temVMSl9CbGtKQ3hleEJGY2VaOGlZZ3lFaEVTVWtSUlAzcEYwYmNNWkV6Q0xiV0JUY0JKamF5T00tRHl6ZDA?oc=5",
+          "publisher": "The Killeen Daily Herald",
+          "published_at": "2026-11-26 14:13"
+        }
+      ],
+      "related": [],
+      "timeline": []
+    },
+    {
+      "id": "politics_cn-006",
+      "category": "politics_cn",
+      "title": "China seeks public input on da",
+      "summary": "China seeks public input on data rules as Beijing moves to shape next phase of AI development Business Upturn",
+      "key_facts": [
+        "Business Upturn 于 11-26 11:25 报道：China seeks public input on data rules as Beijing moves to shape next "
+      ],
+      "entities": [
+        "Business Upturn"
+      ],
+      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
+      "confidence": "medium",
+      "importance": "medium",
+      "followups": [
+        "核实事件细节与后续进展"
+      ],
+      "sources": [
+        {
+          "title": "China seeks public input on data rules as Beijing moves to shape next phase of AI development - Business Upturn",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMnh6QnZrVUstSGxPSkhvazMwSk9pY2NTS3NlbkVlSy1nX09wQXRSRnVrSklPN3paZXBFRlpUaHFwNjhKMkZadHBVSjZTd2pKU1BjN0NWOFRyNG42ZUhSNUloMmVqZkdUTHlDVHB6VEcwanlCeC04aFpXaFh1RHVfZU4xVklxV0lkc2N2R1NCY2pzay1Sd2t5YndXVUhUMXRBZlNsbE51S1l6dWU0V2c3YTJ2YURGR1lOci11Z0dIamV4TkRmYUkzSzNBVllYa29vdjBNRHhNTDVHZHZZUUZN?oc=5",
+          "publisher": "Business Upturn",
+          "published_at": "2026-11-26 11:25"
+        }
+      ],
+      "related": [],
+      "timeline": []
+    },
+    {
+      "id": "politics_eu-001",
+      "category": "politics_eu",
+      "title": "AU-EU Renewed 10-Year Food Sec",
+      "summary": "AU-EU Renewed 10-Year Food Security R&I Roadmap CASRAI",
+      "key_facts": [
+        "CASRAI 于 11-26 11:02 报道：AU-EU Renewed 10-Year Food Security R&I Roadmap - CASRAI"
+      ],
+      "entities": [
+        "CASRAI"
+      ],
+      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
+      "confidence": "medium",
+      "importance": "medium",
+      "followups": [
+        "核实事件细节与后续进展"
+      ],
+      "sources": [
+        {
+          "title": "AU-EU Renewed 10-Year Food Security R&I Roadmap - CASRAI",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRjBUa0RKTl9LekFWQXhJZXJNNU52VHZkV2N5Q25fT3Z3X3VpRU14N0k5MmdHbDdqMGFfTi1IMG5RLW11dUpZTnc3aUt6LVEyeVZUMlJvWmd2T1FDenpjd0RtWENsZWNyRG5rbHdXNzBud2VWQ2ViTlNVRGxZdENkT2cwUUlweUI2Vlc2dUFob2c2ZFFuLWNWUXdROGdXQzlwamRFYg?oc=5",
+          "publisher": "CASRAI",
+          "published_at": "2026-11-26 11:02"
+        }
+      ],
+      "related": [],
+      "timeline": []
+    },
+    {
+      "id": "politics_eu-002",
+      "category": "politics_eu",
+      "title": "CPTPP Ministers Issue Joint Tr",
+      "summary": "CPTPP Ministers Issue Joint Trade and Investment Statements With European Union and ASEAN CASRAI",
+      "key_facts": [
+        "CASRAI 于 11-26 19:07 报道：CPTPP Ministers Issue Joint Trade and Investment Statements With Europ"
+      ],
+      "entities": [
+        "CASRAI"
+      ],
+      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
+      "confidence": "medium",
+      "importance": "medium",
+      "followups": [
+        "核实事件细节与后续进展"
+      ],
+      "sources": [
+        {
+          "title": "CPTPP Ministers Issue Joint Trade and Investment Statements With European Union and ASEAN - CASRAI",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUkM4TFFvS1hXZDRpQVBJdDNuc0VYdWVybW1fSDJTX1JoQTBTT2QtMG93T3hzWGt4bWIyMm9sZmJfVF9aYWZpMk02b2dxMTZ0WGRSMl9pRkxIc1c3MDV1OHgzNWdNY2lyODR5M3VraWs2ek4ydDBtNXg5NDA2OTlfem01dWlicGFpM1hlWlJjdzJuLVhITWdTSjFKLUVXX29v?oc=5",
+          "publisher": "CASRAI",
+          "published_at": "2026-11-26 19:07"
         }
       ],
       "related": [],
@@ -808,13 +808,13 @@ window.NEWS_DATA = {
     {
       "id": "politics_eu-003",
       "category": "politics_eu",
-      "title": "301 调查提案落地：欧盟基准 15% 最高 20%，日韩最",
-      "summary": "301 调查提案落地：欧盟基准 15% 最高 20%，日韩最高 15% ChemNet News",
+      "title": "EU Parliament backs methane ru",
+      "summary": "EU Parliament backs methane rules delay amid energy and climate policy divisions INSIGHT EU MONITORING",
       "key_facts": [
-        "ChemNet News 于 11-26 01:53 报道：301 调查提案落地：欧盟基准 15% 最高 20%，日韩最高 15% - ChemNet News"
+        "INSIGHT EU MONITORING 于 11-27 00:54 报道：EU Parliament backs methane rules delay amid energy and climate policy"
       ],
       "entities": [
-        "ChemNet News"
+        "INSIGHT EU MONITORING"
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -824,10 +824,10 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "301 调查提案落地：欧盟基准 15% 最高 20%，日韩最高 15% - ChemNet News",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5IUXpJdkNVTFFNcmZpUmYySHhEY0pVRERnRTFkcFZtM0luUjJPeGFsUHRkeTVoWGhuWXN2V3VaaUFmRWI1d2x4cTA4STJXTUNZNmJfX2xRVkk2UU1OaFdz?oc=5",
-          "publisher": "ChemNet News",
-          "published_at": "2026-11-26 01:53"
+          "title": "EU Parliament backs methane rules delay amid energy and climate policy divisions - INSIGHT EU MONITORING",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQVUluaXZiWW5yYWk3S2d0WnZsS2tvLUlQYWdFb2MweEUxM3pmNDRUVGxHb1hMaWR3UXR2U2Fobm5UOVdib1VPRU9VcGp1eE14SmlJcDFhNHM1S1hhLTVjM2k3RGtTZHpxY2cxNHJqOGE2Ym9uTE9TcTk0Qk9yTDdJTU1HQ2NFUzRORlQ4d3lza0dwMkNORHQ0Z0NWcjV2azNMTjhRWTN5aGl6WGc5SFFUR05xeXJYbnV5MjZyNDF6UGVYOFNxLWVSY2FtZ3h4UkV1VTVzZkxzNzRJQ1c5cE5MaA?oc=5",
+          "publisher": "INSIGHT EU MONITORING",
+          "published_at": "2026-11-27 00:54"
         }
       ],
       "related": [],
@@ -836,13 +836,13 @@ window.NEWS_DATA = {
     {
       "id": "politics_eu-004",
       "category": "politics_eu",
-      "title": "500亿欧元！欧盟《量子法案》草案助推前沿科技发展 - 国际",
-      "summary": "500亿欧元！欧盟《量子法案》草案助推前沿科技发展 国际在线",
+      "title": "EU budget: Merz says, ‘I am co",
+      "summary": "EU budget: Merz says, ‘I am confident we will reach an agreement by the end of the year’. De Cos to head the ECB Il Sole 24 ORE",
       "key_facts": [
-        "国际在线 于 11-25 23:47 报道：500亿欧元！欧盟《量子法案》草案助推前沿科技发展 - 国际在线"
+        "Il Sole 24 ORE 于 11-26 21:39 报道：EU budget: Merz says, ‘I am confident we will reach an agreement by th"
       ],
       "entities": [
-        "国际在线"
+        "Il Sole 24 ORE"
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -852,10 +852,10 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "500亿欧元！欧盟《量子法案》草案助推前沿科技发展 - 国际在线",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1sb0EwbUNRaXJmVE5WTU9LZFFmU1VkNW1oUVAyYkNkUjBpY29fZ0RiS1BDOURScFRmWjlDdlNRd01ieHVybXRpZGZOdXR3SzNvOXUyRTZGN1dHQk1EdEcybGRGRkN3Mnh4ZFI0ZU02SW9KMVFXb25RUWx5UzI?oc=5",
-          "publisher": "国际在线",
-          "published_at": "2026-11-25 23:47"
+          "title": "EU budget: Merz says, ‘I am confident we will reach an agreement by the end of the year’. De Cos to head the ECB - Il Sole 24 ORE",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORm5vXzN2UUg1MWZyb09lZVJjaFVmQlVBNVJ3QW43bjBXa1RPeHBhbkJrWUpWQ2tUaWJ5TEg1T2tFMmZNZ0U0WEJfeXZYa1NiODJUZVQ1RnFYZWlSRkhuVVRHTkh2N0hrY2F3RXppY1gyMFBpYjVQUGRLRU52d190RnowOXItS29HUng5NkpFeEtpM0FEWWU0?oc=5",
+          "publisher": "Il Sole 24 ORE",
+          "published_at": "2026-11-26 21:39"
         }
       ],
       "related": [],
@@ -864,13 +864,13 @@ window.NEWS_DATA = {
     {
       "id": "politics_eu-005",
       "category": "politics_eu",
-      "title": "COP31谈判破裂后，欧盟拟推动改革联合国气候谈判机制 - ",
-      "summary": "COP31谈判破裂后，欧盟拟推动改革联合国气候谈判机制 碳道app",
+      "title": "EU eases its own climate rules",
+      "summary": "EU eases its own climate rules while rejecting COP31 deal | Daily Sabah Daily Sabah",
       "key_facts": [
-        "碳道app 于 11-26 00:11 报道：COP31谈判破裂后，欧盟拟推动改革联合国气候谈判机制 - 碳道app"
+        "Daily Sabah 于 11-26 12:13 报道：EU eases its own climate rules while rejecting COP31 deal | Daily Saba"
       ],
       "entities": [
-        "碳道app"
+        "Daily Sabah"
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -880,10 +880,10 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "COP31谈判破裂后，欧盟拟推动改革联合国气候谈判机制 - 碳道app",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ranF0UDV4RDc3c2d3UjNKYmFzYldOMEVWQ0Z1Smw2cGtRV0YyTENxa24zcUJwVmZ1eTdtTktZUVk1WHRWS0hIOERId2NiTXVvUklsOWtLZ2NvMWF0dUE?oc=5",
-          "publisher": "碳道app",
-          "published_at": "2026-11-26 00:11"
+          "title": "EU eases its own climate rules while rejecting COP31 deal | Daily Sabah - Daily Sabah",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWjEzMU1GdWxyQ0llY1RYdVI5bG9tbzVmc1NiTzlEUHU5R2tSYjBlc2Q4YVpLMzFSTUdwanl0X2VhVU9kWlhzY3lKVHBZNjdyWkRMSi0tRWZkNzZLR256dVA3UUJKeXR6UFRMaWJRUWd5em12R1ItVFB6T0JBcEdKNkdFaUEzY29Jb2JSWGJ1TDA4V010bnQ1d0RKekNYc0xBMkNSX25CSdIBpwFBVV95cUxQWjEzMU1GdWxyQ0llY1RYdVI5bG9tbzVmc1NiTzlEUHU5R2tSYjBlc2Q4YVpLMzFSTUdwanl0X2VhVU9kWlhzY3lKVHBZNjdyWkRMSi0tRWZkNzZLR256dVA3UUJKeXR6UFRMaWJRUWd5em12R1ItVFB6T0JBcEdKNkdFaUEzY29Jb2JSWGJ1TDA4V010bnQ1d0RKekNYc0xBMkNSX25CSQ?oc=5",
+          "publisher": "Daily Sabah",
+          "published_at": "2026-11-26 12:13"
         }
       ],
       "related": [],
@@ -892,13 +892,13 @@ window.NEWS_DATA = {
     {
       "id": "politics_eu-006",
       "category": "politics_eu",
-      "title": "Court rules EU must set out ti",
-      "summary": "Court rules EU must set out timeline to end cage farming Le Monde.fr",
+      "title": "EU launches Supply Chain Early",
+      "summary": "EU launches Supply Chain Early Warning Network with Trans-Pacific bloc PubAffairs Bruxelles",
       "key_facts": [
-        "Le Monde.fr 于 11-25 16:00 报道：Court rules EU must set out timeline to end cage farming - Le Monde.fr"
+        "PubAffairs Bruxelles 于 11-26 15:10 报道：EU launches Supply Chain Early Warning Network with Trans-Pacific bloc"
       ],
       "entities": [
-        "Le Monde.fr"
+        "PubAffairs Bruxelles"
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -908,10 +908,10 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "Court rules EU must set out timeline to end cage farming - Le Monde.fr",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaUdNc1hoSWZrVjFtYWZPODdNRWdOVndfeWxmZWZpTHhraXR4UHVNYjNuZTdZS0JScV9qa2xZNFd1NEZ4MjlNblJjMWtXMFJCRHM4dHEtLTBQMUlFSmVfeUhYemtZTXdtdW1Cenc2SlBNVDVPOTNvaGUyc09ZYW5JUUI1cnZNQ3d0NzZMNWlkRVJkNzhxSXV6SEtHenhyb0NfN2ZoQ3RobWNaWmNJWVh4V3VOX00xbmpILWZSU1QtNDYxVHRDamdsUUhB?oc=5",
-          "publisher": "Le Monde.fr",
-          "published_at": "2026-11-25 16:00"
+          "title": "EU launches Supply Chain Early Warning Network with Trans-Pacific bloc - PubAffairs Bruxelles",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYnZTV0phM0s4a2VoMl9lNml6RzF0OUo5RWhDSmJqc2ZxdFJsRm1hTVlkV19CeEwwTWMzT2NRLWU0NUMxZEtheklUVUNjbnd0VG5MUFlrUUg5TnZQRU5rRDY5QjM1VWZja285eVFuUnBjM0FfMkx6eHFieXNqbTNmYjNWeW5ELUN4R0c3ODMyT0h1SWpTTnNtY0w1Y21jVTdhQmxSd2FoMDktUGx0el9id1kxT2toMVlDbC1lS3FtT095Mld6?oc=5",
+          "publisher": "PubAffairs Bruxelles",
+          "published_at": "2026-11-26 15:10"
         }
       ],
       "related": [],
@@ -923,7 +923,7 @@ window.NEWS_DATA = {
       "title": "25年来最贵的一笔债：正给白宫敲响警钟？ - 财联社",
       "summary": "25年来最贵的一笔债：正给白宫敲响警钟？ 财联社",
       "key_facts": [
-        "财联社 于 11-25 16:02 报道：25年来最贵的一笔债：正给白宫敲响警钟？ - 财联社"
+        "财联社 于 11-26 11:03 报道：25年来最贵的一笔债：正给白宫敲响警钟？ - 财联社"
       ],
       "entities": [
         "财联社"
@@ -939,7 +939,7 @@ window.NEWS_DATA = {
           "title": "25年来最贵的一笔债：正给白宫敲响警钟？ - 财联社",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1qSTlIN2J2dkZJX2h2cjB0bFJZQU05RWVhcnRlVGl1R1VNTUhsSG83QXpveXNJM2xjTDZRSWlZb29tOFI4TGJJSA?oc=5",
           "publisher": "财联社",
-          "published_at": "2026-11-25 16:02"
+          "published_at": "2026-11-26 11:03"
         }
       ],
       "related": [],
@@ -948,13 +948,13 @@ window.NEWS_DATA = {
     {
       "id": "politics_us-002",
       "category": "politics_us",
-      "title": "Apex证券：美国拟加征关税恐打击大马出口 但长期前景依然稳",
-      "summary": "Apex证券：美国拟加征关税恐打击大马出口 但长期前景依然稳健 KLSE Screener",
+      "title": "Can a Democratic Congress chan",
+      "summary": "Can a Democratic Congress change US Middle East policy? The New Arab",
       "key_facts": [
-        "KLSE Screener 于 11-26 01:39 报道：Apex证券：美国拟加征关税恐打击大马出口 但长期前景依然稳健 - KLSE Screener"
+        "The New Arab 于 11-26 16:32 报道：Can a Democratic Congress change US Middle East policy? - The New Arab"
       ],
       "entities": [
-        "KLSE Screener"
+        "The New Arab"
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -964,10 +964,10 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "Apex证券：美国拟加征关税恐打击大马出口 但长期前景依然稳健 - KLSE Screener",
-          "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxOZTVQUXpvdDcySUJvZFJpY0ZqelBJRW5icTRya3V0QjFqV1Q1aTFiV2Y0blk5RkhrTkVpbEVZalNDN21ibFBOTDZmOER0WGpmRXJST3BDZVZlNVNubEgya2RTU1Z4SUJ3WkNveENTS2tsbTd1ZnVtbzFOSTdsU3NiSkY4ckZ3X0FocjhTbVRxT1VnQmkwclBfV1cydW1HcjI4NE1DenpvWE9naXcxMnk4LWliV3JEbEs0dVl6NF9ibG5Xdzl3X1IyeVNsUTdPZDJxWlYzbHp0SHlXa2N1TjlkODlwaUw4dnQyeGg4ZE1yTmNkalBGS1hKMEpmTlJWVTJfbFFNVHd5Z2xwMEw0TUU1b1NQLTRJdW50LVRkenk2MXlzVVBiRTRLOXRaU0EtSEZPYkx2aG5EZEltN1NxNG0zeUt5VWVCUmd4bklnamVkYWJEYUhWZFBya2wxbFhXVmRYMWhyLUJiT0Q4R1BuNHFGLXR1VzJMRzBWaHNvcUhoMHlCS09ZYUxRU01aaS1odnl3Nzh3?oc=5",
-          "publisher": "KLSE Screener",
-          "published_at": "2026-11-26 01:39"
+          "title": "Can a Democratic Congress change US Middle East policy? - The New Arab",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRjU3amtQTzAycDJhby1pS2JRbldiNWVwUUNoU1I5NnNJT2dtZnExbUVad0E2S1hyc3A0YXUxVGJqcUJNcDBFSk53T3hkRDkzOHNLVWdidW1yWGFsLUIxZmplS09TSTM2emRWalVFb2laQklCOXpoSnV6YTJON3ptRUJDS3hsUkh3aWVnQXhfdVFwRE3SAZMBQVVfeXFMTUY1N2prUE8wMnAyYW8taUtiUW5XYjVlcFFDaFNSOTZzSU9nbWZxMW1FWndBNktYcnNwNGF1MVRianFCTXAwRUpOd094ZEQ5MzhzS1VnYnVtclhhbC1CMWZqZUtPU0kzNnpkVmpVRW9pWkJJQjl6aEp1emEyTjd6bUVCQ0t4bFJId2llZ0F4X3VRcERN?oc=5",
+          "publisher": "The New Arab",
+          "published_at": "2026-11-26 16:32"
         }
       ],
       "related": [],
@@ -976,13 +976,13 @@ window.NEWS_DATA = {
     {
       "id": "politics_us-003",
       "category": "politics_us",
-      "title": "Dropped Call: Unpacking the Go",
-      "summary": "Dropped Call: Unpacking the Government’s Apparent Reversal on a Fourth Wireless Carrier Policy Michael Geist -",
+      "title": "Canada seeking to reach interi",
+      "summary": "Canada seeking to reach interim tariff agreement with US Yieh Corp.",
       "key_facts": [
-        "Michael Geist - 于 11-25 13:23 报道：Dropped Call: Unpacking the Government’s Apparent Reversal on a Fourth"
+        "Yieh Corp. 于 11-27 00:49 报道：Canada seeking to reach interim tariff agreement with US - Yieh Corp."
       ],
       "entities": [
-        "Michael Geist -"
+        "Yieh Corp."
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -992,10 +992,10 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "Dropped Call: Unpacking the Government’s Apparent Reversal on a Fourth Wireless Carrier Policy - Michael Geist -",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZE9hUzJwQi0tZTNJbUwtUnJnZ1ZNdDdJbDJESnBHSDVGZGVrZTBJUlF1RzhRMV94Nk53WDFPd0NXTVJJSUk1cUQxbHd3TEVvcjF5VjRJNEVaZWdER0VHbk16M2o1eFl2V3NnYnU4Sy00LWlySy12LTJIdTJLRzFmY2U4ekFBaFFTSGtoUDJ4c1lsUkxfQXc4NTdCRVQyZ0xSTVlWeVoyYk1VeDhCNmVBUDdlU1A0MWVvZWZwUmpHaXlsSWw1OWpEMQ?oc=5",
-          "publisher": "Michael Geist -",
-          "published_at": "2026-11-25 13:23"
+          "title": "Canada seeking to reach interim tariff agreement with US - Yieh Corp.",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVU0yOWkwVVF0OGdzTUdaLW95RU9MNFJjX1d6R2FtaUJsVzNJOUUtUDZHUDBSNV85WkF5aWdTTEY0Ym12VHFlNzJFNUVZdDVpZXNJQVJreVZubkJKS1hYZnVacndJUHdleGRLQ0JrTlVtaWpYMzFIc0U4ZzN3QU9tOWZYRVpYVEJ4SHNkUEQtamRfZw?oc=5",
+          "publisher": "Yieh Corp.",
+          "published_at": "2026-11-27 00:49"
         }
       ],
       "related": [],
@@ -1004,13 +1004,13 @@ window.NEWS_DATA = {
     {
       "id": "politics_us-004",
       "category": "politics_us",
-      "title": "Guilty: Huawei faces steep pen",
-      "summary": "Guilty: Huawei faces steep penalties for stealing T-Mobile, Cisco trade secrets Ars Technica",
+      "title": "Cancer patients accuse Ford go",
+      "summary": "Cancer patients accuse Ford government of abusing its power in court fight over U.S. treatments Sudbury News",
       "key_facts": [
-        "Ars Technica 于 11-25 16:33 报道：Guilty: Huawei faces steep penalties for stealing T-Mobile, Cisco trad"
+        "Sudbury News 于 11-27 01:02 报道：Cancer patients accuse Ford government of abusing its power in court f"
       ],
       "entities": [
-        "Ars Technica"
+        "Sudbury News"
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -1020,10 +1020,10 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "Guilty: Huawei faces steep penalties for stealing T-Mobile, Cisco trade secrets - Ars Technica",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQUhsQW44MDBZYV9uLUN1ZkJRNHdXQ2xZcjg2ZjhIYXpZWXk5bkNFbG5LM0lJTmRmUHBhRDdoY3lLQXBXZTJ4X2kzcWlMd2pUdlVhQll1MTNUVlNaQ2Zhdmp0WVJPb2tWaEIxTlB0ZVNXbjdURDFoekNRZ2hPVjllOGxUQm5yelduY3JhYVg5YUNGaUJNb1BFWjgyaXZEaDkyb3VZMGtMTmpJWUNUM0VLM0tVVU4xMDBY?oc=5",
-          "publisher": "Ars Technica",
-          "published_at": "2026-11-25 16:33"
+          "title": "Cancer patients accuse Ford government of abusing its power in court fight over U.S. treatments - Sudbury News",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbDBfWWRaX3AxTEc1WFBQazVuRmFhV1pqbHhPRzZTS1BCTWl5YVFOYnZUMHRkaUpvSnYwUTlLOHYybTRrLXRhd1hrclFzZVNEZ3AybFl6emN5d29mTXdaSWJmSlBOYXpFLUhWckdOWjU0cE0tZFdFTWpnTkY0VGVtYkk3TllQUE9pQm9iQUhfMTB2ejVfRVowdmVvemFtTTR5dUpibkFkN3kyUFByeU93aHIxNUZpRkU2SkFvY2UtbUxodl9yaFE2QWhUMHVKWWlYcl9OZW9R?oc=5",
+          "publisher": "Sudbury News",
+          "published_at": "2026-11-27 01:02"
         }
       ],
       "related": [],
@@ -1032,13 +1032,13 @@ window.NEWS_DATA = {
     {
       "id": "politics_us-005",
       "category": "politics_us",
-      "title": "Inflation rises and income is ",
-      "summary": "Inflation rises and income is stout as U.S. imposes new tariffs The Real Economy Blog",
+      "title": "Colombia halts bid to join BRI",
+      "summary": "Colombia halts bid to join BRICS, New Development Bank as it seeks closer US ties Anadolu Ajansı",
       "key_facts": [
-        "The Real Economy Blog 于 11-25 15:45 报道：Inflation rises and income is stout as U.S. imposes new tariffs - The "
+        "Anadolu Ajansı 于 11-26 15:11 报道：Colombia halts bid to join BRICS, New Development Bank as it seeks clo"
       ],
       "entities": [
-        "The Real Economy Blog"
+        "Anadolu Ajansı"
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -1048,10 +1048,10 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "Inflation rises and income is stout as U.S. imposes new tariffs - The Real Economy Blog",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT0xmenhmT09TQzVTUmJvdGFha2dkU0FlYWNiQmZoY2RhZmNNbHJtR2FZdlVreHRsTnpKLXJuNzJWSnBMV0JpZDh1SUVuajgzellMWjE4aGd2ZUJ4VVFHYWx6UEx5bk1FRVNtM2ZlRnoyZzF1UGVwdlcwcGFMRmc3eGlyVWZZR01tWXY3OTlWSXBwX2NZZE56cw?oc=5",
-          "publisher": "The Real Economy Blog",
-          "published_at": "2026-11-25 15:45"
+          "title": "Colombia halts bid to join BRICS, New Development Bank as it seeks closer US ties - Anadolu Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUTJjazZsVElhT2tUZ0FQYWl1ZXpVWWNjOTBnWTJHcEMtNENOeTV4eGtwa0RITnMzOHFNTjd0Zm1Ra2hvUGlrekw1SzlGclo0Qzl5NmhhWU8wYzRQRldSSzRDbkozS0psSWprSk1PSEtiRWFGQXczZzBiOVcxUE1acXBWaE5GNmtTbkpaMHNwbzkzclFBY3RfOHF1d28xalowY09JWGIzZGhwdXZfVGlyUDZpXzB1SmwtWGlTQUYwcw?oc=5",
+          "publisher": "Anadolu Ajansı",
+          "published_at": "2026-11-26 15:11"
         }
       ],
       "related": [],
@@ -1060,13 +1060,13 @@ window.NEWS_DATA = {
     {
       "id": "politics_us-006",
       "category": "politics_us",
-      "title": "Instant View: US proposes new ",
-      "summary": "Instant View: US proposes new tariffs aimed at factory overcapacity Yahoo Finance",
+      "title": "Despite emergency appeal to Su",
+      "summary": "Despite emergency appeal to Supreme Court, Bruce the dog euthanized in California ABC News - Breaking News, Latest News and Videos",
       "key_facts": [
-        "Yahoo Finance 于 11-25 14:08 报道：Instant View: US proposes new tariffs aimed at factory overcapacity - "
+        "ABC News - Breaking News, Latest News and Videos 于 11-26 18:27 报道：Despite emergency appeal to Supreme Court, Bruce the dog euthanized in"
       ],
       "entities": [
-        "Yahoo Finance"
+        "ABC News - Breaking News, Latest News and Videos"
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -1076,10 +1076,10 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "Instant View: US proposes new tariffs aimed at factory overcapacity - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZG1ROGduQ1lReEV5Q291bFllMk5UNFFxLU5rdnNHTi1jdTV1SXVtN1JpMTgwalFXZXZVeVBVSzFUNUVJbUQ2Wm5uQk5aMzZETWl3aFJxT0x3ZWVBcGdxZlR0ZVVwQ3NvX3RMXzdmSHpsRUo5NlIyMW5oME82UXFNMy1tbFBvS2hGYVFsWHZJTVVwaVdRMmNpMi1OSE9udw?oc=5",
-          "publisher": "Yahoo Finance",
-          "published_at": "2026-11-25 14:08"
+          "title": "Despite emergency appeal to Supreme Court, Bruce the dog euthanized in California - ABC News - Breaking News, Latest News and Videos",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUWZZa292OVpVTzZIeUM1bVZyTFR1aTRUTkhzNXpmOVpLS0lrRUZQX2lTZ0pRRG9xZ1lXa1M4UEEtSFotUUNtUmxNUG9OamxTc1pQQ1B2czIzTENJaTdjc0xzWUJwR0RJSUF6QVF6NW12NDBoY1JnZm05WlZwZS1BZm5tLU5rbFFMTHFaazg3ZmEwQmx3NjN5RjNmWEE2bk80VHc40gGoAUFVX3lxTFB2TTRKMEhYLU5nVllITUtmMEdlZHlRa25MZEtSZDljcHd5SENXcmk2ejh0QmhCX0NSSkR2RnF0RENMX0FLSi1iUU5nUnl3RzhfS2dvLUlmeHM5elFMYUpOdGd1UzRoQ1hyVzNlRzJLcFUtWDZXa0Z5cElnU1YySXE0M1BZa1pPSDlVM2R2ZUNEMGRuMWhFczJTakVZMDJfRlVhbExrckF6Ug?oc=5",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "published_at": "2026-11-26 18:27"
         }
       ],
       "related": [],
@@ -1088,13 +1088,13 @@ window.NEWS_DATA = {
     {
       "id": "tech_ai-001",
       "category": "tech_ai",
-      "title": "2026国创中心五周年生态大会举行，“AI＋控制”战略推动工",
-      "summary": "2026国创中心五周年生态大会举行，“AI＋控制”战略推动工业体系迈向可信自进化 中国家电网",
+      "title": "11月26日创业板人工智能ETF富国（159246）份额减少",
+      "summary": "11月26日创业板人工智能ETF富国（159246）份额减少1800.00万份，最新份额26.10亿份，最新规模18.66亿元 新浪财经",
       "key_facts": [
-        "中国家电网 于 11-26 00:41 报道：2026国创中心五周年生态大会举行，“AI＋控制”战略推动工业体系迈向可信自进化 - 中国家电网"
+        "新浪财经 于 11-27 01:11 报道：11月26日创业板人工智能ETF富国（159246）份额减少1800.00万份，最新份额26.10亿份，最新规模18.66亿元 - 新浪财经"
       ],
       "entities": [
-        "中国家电网"
+        "新浪财经"
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -1104,10 +1104,10 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "2026国创中心五周年生态大会举行，“AI＋控制”战略推动工业体系迈向可信自进化 - 中国家电网",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ObXVaVjQtZzFod21LbVF5N1ZYbWxZTFhkSmQtakdSN1F2V21OQnlBemkwNzFxSDhuLTVGem44T0NXMEdlaEtudHd3X0ZqQkVySVUyM2pvam8?oc=5",
-          "publisher": "中国家电网",
-          "published_at": "2026-11-26 00:41"
+          "title": "11月26日创业板人工智能ETF富国（159246）份额减少1800.00万份，最新份额26.10亿份，最新规模18.66亿元 - 新浪财经",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45ZkZPMkJnc3ZhODBzUC1Nd0QwMzh1WWdOTWFJa2tOWjRnT0hzWExsWG1pUkR6TzVMUHBacmV0b0RWMDNMeTI0WEhMb0kxYzhGR1U0LWJab3QzRE91Z28xQl9ZUDBtc0NfVDZhSHgzWnBoTGp2X1ZweA?oc=5",
+          "publisher": "新浪财经",
+          "published_at": "2026-11-27 01:11"
         }
       ],
       "related": [],
@@ -1116,13 +1116,13 @@ window.NEWS_DATA = {
     {
       "id": "tech_ai-002",
       "category": "tech_ai",
-      "title": "AI Chip Sector Performance | Q",
-      "summary": "AI Chip Sector Performance | Quotes & News Moomoo",
+      "title": "2026虎嗅F&M之夜「共识前夜」在北京举行 200余位AI",
+      "summary": "2026虎嗅F&M之夜「共识前夜」在北京举行 200余位AI创业者探讨AI创业共识与非共识 虎嗅",
       "key_facts": [
-        "Moomoo 于 11-25 21:00 报道：AI Chip Sector Performance | Quotes & News - Moomoo"
+        "虎嗅 于 11-26 12:27 报道：2026虎嗅F&M之夜「共识前夜」在北京举行 200余位AI创业者探讨AI创业共识与非共识 - 虎嗅"
       ],
       "entities": [
-        "Moomoo"
+        "虎嗅"
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -1132,10 +1132,10 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "AI Chip Sector Performance | Quotes & News - Moomoo",
-          "url": "https://news.google.com/rss/articles/CBMihANBVV95cUxPZ2ltWldTS3N2OGtfM3UyU0dPVUtfclI1a1NTb1Yxc1g5Q0ZtOTBMMi1iZExRcFM3bFFNcm9PT2N1WTFBZ0J4d1FFWmNNNXJkMlA3ZWloZzd3TUpMckpNb25OUDJiNlBEZXFxT3VWcUtOZFlfeGE4TGladk94b3NrQlhGaTNGNmlpMTY3QVhCQUFQeURRZ2taY2tEbnRMQUhqRHN4bVhkZnFhMWVsT29xRUE3ZEktSTRtNGdRQmdadElRTWw0MkNxVkZVOHdJbndfRU02U0xuQkJBTFQtNnJMalhQeTZsVGlsci1MQlZ5Ym8zZVk3NFpXU3h3N3c1bFpHdV85NW1fS3RENTVIa3JTdFBZeS0tRWo4VmdrU1J4S0hFZTFHck1zYU5jR2R1WnAyOThocEx5bjlxSS1rcldLRklRVTNDWndIVzZESTlpRG84RWVlVFZ3eGs4bUI4cC11ZFRpTi1ZRDhiX05zWEllalNpWkFuRTJEdEZFd3JxTTFFX3Zm?oc=5",
-          "publisher": "Moomoo",
-          "published_at": "2026-11-25 21:00"
+          "title": "2026虎嗅F&M之夜「共识前夜」在北京举行 200余位AI创业者探讨AI创业共识与非共识 - 虎嗅",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oUkE2ZXRCTGhwa3o5Rk5ReGRQMm54UlN6TDFKOGVBZGxEcEV1MnlkV3Qta19YaWo5QV9CaTJvOGVKc0VvcUkyMTUteU1jUF9QUkk2aQ?oc=5",
+          "publisher": "虎嗅",
+          "published_at": "2026-11-26 12:27"
         }
       ],
       "related": [],
@@ -1144,66 +1144,10 @@ window.NEWS_DATA = {
     {
       "id": "tech_ai-003",
       "category": "tech_ai",
-      "title": "AI产业落地走到哪一步？多赛道头部企业给出一线研判 - 财联",
-      "summary": "AI产业落地走到哪一步？多赛道头部企业给出一线研判 财联社",
+      "title": "22亿美元长约锁定AI算力扩张 - Sohu",
+      "summary": "22亿美元长约锁定AI算力扩张 Sohu",
       "key_facts": [
-        "财联社 于 11-26 00:15 报道：AI产业落地走到哪一步？多赛道头部企业给出一线研判 - 财联社"
-      ],
-      "entities": [
-        "财联社"
-      ],
-      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
-      "confidence": "medium",
-      "importance": "medium",
-      "followups": [
-        "核实事件细节与后续进展"
-      ],
-      "sources": [
-        {
-          "title": "AI产业落地走到哪一步？多赛道头部企业给出一线研判 - 财联社",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBHa2J5eVhzV2xxLUlwR0VFbkp5UGJWRkRSYmFJMlMzMG8zVmlEUGd5aWFTWWhDUndENWlRSXA4Z1FxWjBwZ3pVRA?oc=5",
-          "publisher": "财联社",
-          "published_at": "2026-11-26 00:15"
-        }
-      ],
-      "related": [],
-      "timeline": []
-    },
-    {
-      "id": "tech_ai-004",
-      "category": "tech_ai",
-      "title": "AI应用“大幕”首度开启：豆包购物灰度测试 - 中华网财经",
-      "summary": "AI应用“大幕”首度开启：豆包购物灰度测试 中华网财经",
-      "key_facts": [
-        "中华网财经 于 11-26 01:42 报道：AI应用“大幕”首度开启：豆包购物灰度测试 - 中华网财经"
-      ],
-      "entities": [
-        "中华网财经"
-      ],
-      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
-      "confidence": "medium",
-      "importance": "medium",
-      "followups": [
-        "核实事件细节与后续进展"
-      ],
-      "sources": [
-        {
-          "title": "AI应用“大幕”首度开启：豆包购物灰度测试 - 中华网财经",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jVlhOM1NhbUc4a01pOWdUTlJ5ZUxtdmtFb3YxSUQ2d2w2UU9QM0o4Z2ZCZjNHN25UbGo2bmRfNlJJc1dTVTlPVE5pUFZndUxxUG1rcVlhZUZYSXJhaFVxaVdfZl9aSDlwclIyR0tn?oc=5",
-          "publisher": "中华网财经",
-          "published_at": "2026-11-26 01:42"
-        }
-      ],
-      "related": [],
-      "timeline": []
-    },
-    {
-      "id": "tech_ai-005",
-      "category": "tech_ai",
-      "title": "AI成为“数学高手”，数学界为何喜忧参半？ - Sohu",
-      "summary": "AI成为“数学高手”，数学界为何喜忧参半？ Sohu",
-      "key_facts": [
-        "Sohu 于 11-26 01:22 报道：AI成为“数学高手”，数学界为何喜忧参半？ - Sohu"
+        "Sohu 于 11-26 19:40 报道：22亿美元长约锁定AI算力扩张 - Sohu"
       ],
       "entities": [
         "Sohu"
@@ -1216,22 +1160,22 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "AI成为“数学高手”，数学界为何喜忧参半？ - Sohu",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPd2VqYy1iSXJWX25obzlyZWRiTlI0Zlo1SV85YW0xQXdvZ252UjVZRXpyYnBUUDZLcnZhakxKSDRobklwWXVzekgwVEVBQnl0cHM1dnk3aW9tazY5WUVHWk5EWkotLWhrenR0T1ZIT3F6aWhJdTYxYXQ2ZU4wLUhvaFVISlVqdjRyekt3?oc=5",
+          "title": "22亿美元长约锁定AI算力扩张 - Sohu",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxON1VROXY0NldaUkR3dHpQSGJOS0x0cEp1SVpBUjJvdWR5Y3Mtd2lDZkl6aWhKaFhoc01TVGQ0emZQcXRaQXpHTE81M3pYRFhZMjdyT2pQVHVlNFpLaHRXRjlGRmRacUNwRXFNYmtRWVNaNm43ZXFnd2RqWlBNR1VSLVRlODF1MzVU?oc=5",
           "publisher": "Sohu",
-          "published_at": "2026-11-26 01:22"
+          "published_at": "2026-11-26 19:40"
         }
       ],
       "related": [],
       "timeline": []
     },
     {
-      "id": "tech_ai-006",
+      "id": "tech_ai-004",
       "category": "tech_ai",
-      "title": "AI投资热潮助力出口大超预期 AI下半场资本如何布局？这场科",
-      "summary": "AI投资热潮助力出口大超预期 AI下半场资本如何布局？这场科创盛宴即将为你揭晓 https://www.mrjjxw.com/",
+      "title": "40万平方米、22个展区⋯⋯今年高交会上，机器人、AI给传统",
+      "summary": "40万平方米、22个展区⋯⋯今年高交会上，机器人、AI给传统产业带来了哪些改变？ https://www.mrjjxw.com/",
       "key_facts": [
-        "https://www.mrjjxw.com/ 于 11-25 13:34 报道：AI投资热潮助力出口大超预期 AI下半场资本如何布局？这场科创盛宴即将为你揭晓 - https://www.mrjjxw.com/"
+        "https://www.mrjjxw.com/ 于 11-26 15:42 报道：40万平方米、22个展区⋯⋯今年高交会上，机器人、AI给传统产业带来了哪些改变？ - https://www.mrjjxw.com/"
       ],
       "entities": [
         "https://www.mrjjxw.com/"
@@ -1244,25 +1188,25 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "AI投资热潮助力出口大超预期 AI下半场资本如何布局？这场科创盛宴即将为你揭晓 - https://www.mrjjxw.com/",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3TXRYNktpMy1zdGw2X25tWUk5NDRDUDBFXzBpUW5Qck1pY3l3LUlYTW1ISklmd0hURm8xazNDYWFrbmZXVjhKX2puQlhmSkdqc1Rpc2FWeE1VZzJsVzlaZjVkVlVXQQ?oc=5",
+          "title": "40万平方米、22个展区⋯⋯今年高交会上，机器人、AI给传统产业带来了哪些改变？ - https://www.mrjjxw.com/",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1YM2lONl9vQkEwYmJPYUp4bnBKelVvUVZWRF9PZDZFejJVWlRheEdRWU1UUjVXQzFLcmRSU1JGQkdENTUycm44ZkRXSjVDblYwOU1OYldvdlYxVVczMm5leEpRTUhSUQ?oc=5",
           "publisher": "https://www.mrjjxw.com/",
-          "published_at": "2026-11-25 13:34"
+          "published_at": "2026-11-26 15:42"
         }
       ],
       "related": [],
       "timeline": []
     },
     {
-      "id": "tech_ev-001",
-      "category": "tech_ev",
-      "title": "10月动力电池出口量TOP10：6家翻倍增长 一家大涨近5 ",
-      "summary": "10月动力电池出口量TOP10：6家翻倍增长 一家大涨近5 倍 盖世汽车",
+      "id": "tech_ai-005",
+      "category": "tech_ai",
+      "title": "6个AI硬件创业项目样本 - RFID世界网",
+      "summary": "6个AI硬件创业项目样本 RFID世界网",
       "key_facts": [
-        "盖世汽车 于 11-26 01:43 报道：10月动力电池出口量TOP10：6家翻倍增长 一家大涨近5 倍 - 盖世汽车"
+        "RFID世界网 于 11-27 01:36 报道：6个AI硬件创业项目样本 - RFID世界网"
       ],
       "entities": [
-        "盖世汽车"
+        "RFID世界网"
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -1272,10 +1216,66 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "10月动力电池出口量TOP10：6家翻倍增长 一家大涨近5 倍 - 盖世汽车",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBubEhtelgyRTVETlZtSWVrdHBuOWpNU25abXhRaC1QNEhEMjJUVFpRbkNWQm1VbXVud2lSOHVWeVNGTzBpNWJ0aEdZY2U3b2dG?oc=5",
-          "publisher": "盖世汽车",
-          "published_at": "2026-11-26 01:43"
+          "title": "6个AI硬件创业项目样本 - RFID世界网",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SVmt6U01xSUo4akp0SGRaUkxtSDV5X1FEaHlXUmE5RjNYZXhKZ01WVVNFTXp2bnpNY1BOaThoX0xFN1Q5MXhNelFwc2hBcnF6eXV0LXExeVp1TEpLczRIQzUtUG1HTnhGZWhVWQ?oc=5",
+          "publisher": "RFID世界网",
+          "published_at": "2026-11-27 01:36"
+        }
+      ],
+      "related": [],
+      "timeline": []
+    },
+    {
+      "id": "tech_ai-006",
+      "category": "tech_ai",
+      "title": "AI 替主人社交一个月，当了147次红娘 - 36Kr",
+      "summary": "AI 替主人社交一个月，当了147次红娘 36Kr",
+      "key_facts": [
+        "36Kr 于 11-26 18:01 报道：AI 替主人社交一个月，当了147次红娘 - 36Kr"
+      ],
+      "entities": [
+        "36Kr"
+      ],
+      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
+      "confidence": "medium",
+      "importance": "medium",
+      "followups": [
+        "核实事件细节与后续进展"
+      ],
+      "sources": [
+        {
+          "title": "AI 替主人社交一个月，当了147次红娘 - 36Kr",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1IYWc2QWxLN3lzYkZlMTQwVkdFYkQyMkxiT3RkVkk4WXZkQmJPMjRrUTRrcFE0N2xMWFU2MkV1UHBhd1dVVzZzaW94X1RIQQ?oc=5",
+          "publisher": "36Kr",
+          "published_at": "2026-11-26 18:01"
+        }
+      ],
+      "related": [],
+      "timeline": []
+    },
+    {
+      "id": "tech_ev-001",
+      "category": "tech_ev",
+      "title": "11月26日新能源车ETF东财基金份额减少800万份，重仓股",
+      "summary": "11月26日新能源车ETF东财基金份额减少800万份，重仓股比亚迪、宁德时代、汇川技术_基金提醒_雷达 证券之星",
+      "key_facts": [
+        "证券之星 于 11-26 22:37 报道：11月26日新能源车ETF东财基金份额减少800万份，重仓股比亚迪、宁德时代、汇川技术_基金提醒_雷达 - 证券之星"
+      ],
+      "entities": [
+        "证券之星"
+      ],
+      "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
+      "confidence": "medium",
+      "importance": "medium",
+      "followups": [
+        "核实事件细节与后续进展"
+      ],
+      "sources": [
+        {
+          "title": "11月26日新能源车ETF东财基金份额减少800万份，重仓股比亚迪、宁德时代、汇川技术_基金提醒_雷达 - 证券之星",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE14Y21RWE1aR2w1T0dMT1BpMGp1NVdsdFg3N3NoNUUwWEYzZ0NhaEt1cjFzOUE1bEphdFhuSXFyQ21BSFo4UXhDTkdCWmZGMFE5UC1leVNnWkNEc0ZEWU5OeTBB?oc=5",
+          "publisher": "证券之星",
+          "published_at": "2026-11-26 22:37"
         }
       ],
       "related": [],
@@ -1284,10 +1284,10 @@ window.NEWS_DATA = {
     {
       "id": "tech_ev-002",
       "category": "tech_ev",
-      "title": "20万级新能源轿车车型哪些更适合年轻人？智己L6好看又好开 ",
-      "summary": "20万级新能源轿车车型哪些更适合年轻人？智己L6好看又好开 汽车之家",
+      "title": "2025年3月新能源汽车销量排行榜 - 汽车之家",
+      "summary": "2025年3月新能源汽车销量排行榜 汽车之家",
       "key_facts": [
-        "汽车之家 于 11-26 01:51 报道：20万级新能源轿车车型哪些更适合年轻人？智己L6好看又好开 - 汽车之家"
+        "汽车之家 于 11-26 12:43 报道：2025年3月新能源汽车销量排行榜 - 汽车之家"
       ],
       "entities": [
         "汽车之家"
@@ -1300,10 +1300,10 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "20万级新能源轿车车型哪些更适合年轻人？智己L6好看又好开 - 汽车之家",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1XeUNIalV6UVVnYnJ1aDc4VmU2bzlzcDN4OW1nZGdGYUZsYzAtdHVOblZhQkNFRjNrTGRkZURGTmUyR3pXQUZ6cWE3QnBwai1qYkZyU09NUTVmMm5DVlBFaVUwQ1dZaDMxTTBj?oc=5",
+          "title": "2025年3月新能源汽车销量排行榜 - 汽车之家",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fR1JvajFueklMTjMzcmc3QjJqdDhNd1hVbkRBNzJ5YXhJLUtmTFJJQ2txbVNob3JUaFptb2hibW9qOXAwSG1UdWtJcmxoRFNIZXBrekVEaGI3QUdPTkE?oc=5",
           "publisher": "汽车之家",
-          "published_at": "2026-11-26 01:51"
+          "published_at": "2026-11-26 12:43"
         }
       ],
       "related": [],
@@ -1312,13 +1312,13 @@ window.NEWS_DATA = {
     {
       "id": "tech_ev-003",
       "category": "tech_ev",
-      "title": "60万元的“超豪华门槛”，又被自主SUV画出一道“地平线” ",
-      "summary": "60万元的“超豪华门槛”，又被自主SUV画出一道“地平线” 盖世汽车",
+      "title": "26年10月新能源车销量排行榜！比亚迪稳居第一，特斯拉滑落第",
+      "summary": "26年10月新能源车销量排行榜！比亚迪稳居第一，特斯拉滑落第八 汽车之家",
       "key_facts": [
-        "盖世汽车 于 11-26 00:44 报道：60万元的“超豪华门槛”，又被自主SUV画出一道“地平线” - 盖世汽车"
+        "汽车之家 于 11-26 13:20 报道：26年10月新能源车销量排行榜！比亚迪稳居第一，特斯拉滑落第八 - 汽车之家"
       ],
       "entities": [
-        "盖世汽车"
+        "汽车之家"
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -1328,10 +1328,10 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "60万元的“超豪华门槛”，又被自主SUV画出一道“地平线” - 盖世汽车",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1YNUJMajdxTFBNZjBCekNUb0FubGV6UmhqRmRBZFJoeGxIOHFfazAxTkdoZHdWQUo3alBjT2RVYVJmX1c5ZlN5ZVFfWXJxbFln?oc=5",
-          "publisher": "盖世汽车",
-          "published_at": "2026-11-26 00:44"
+          "title": "26年10月新能源车销量排行榜！比亚迪稳居第一，特斯拉滑落第八 - 汽车之家",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kdlN0bTdqd1lncW5TQTFlSW0wVldNU21udm1uc2lwXzdKODRBOHdxaVgwcXlkaXNkS0phdEd2Uzh1RHVSNjQyUWFRYlJOY1FHTzBIdXN5bjh0SWc?oc=5",
+          "publisher": "汽车之家",
+          "published_at": "2026-11-26 13:20"
         }
       ],
       "related": [],
@@ -1340,13 +1340,13 @@ window.NEWS_DATA = {
     {
       "id": "tech_ev-004",
       "category": "tech_ev",
-      "title": "At 74,000 miles, this BMW i3's",
-      "summary": "At 74,000 miles, this BMW i3's battery still exceeds its original usable capacity rating The Cool Down",
+      "title": "A Lighter Way to Track Electri",
+      "summary": "A Lighter Way to Track Electric-Vehicle Battery Health in Real Driving | Newswise Newswise",
       "key_facts": [
-        "The Cool Down 于 11-25 16:30 报道：At 74,000 miles, this BMW i3's battery still exceeds its original usab"
+        "Newswise 于 11-26 14:50 报道：A Lighter Way to Track Electric-Vehicle Battery Health in Real Driving"
       ],
       "entities": [
-        "The Cool Down"
+        "Newswise"
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -1356,10 +1356,10 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "At 74,000 miles, this BMW i3's battery still exceeds its original usable capacity rating - The Cool Down",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZTEtUmtqTGRGdUs0a0pLdW1ucDY2SVVmWEhWcWk5ZnA5M0dsOWJ1ajFBTnBXUjZMSU9UOEZkYTE0Z0NvM3NGX1B1SjVHTTBqMGxuLVFHcTJaRmtWanpiSnRVMDF3RnQxOGZVTjRaazdqUy02UTlWRW44U2dpY2RDRTJqOTVUVkU5Z2pJSlpZbEJPRVBRSDhUSkVBYw?oc=5",
-          "publisher": "The Cool Down",
-          "published_at": "2026-11-25 16:30"
+          "title": "A Lighter Way to Track Electric-Vehicle Battery Health in Real Driving | Newswise - Newswise",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZENJT2o3cVNUaUh5WUFfWWlNWXBtNDVscEdwYTgwakJIQ3FsWFFXUEl5a3hVM1IxVmtVQkJwcFczRWNHdV94Z0k0bXc3anp1eWo3Rnd3WUVEc2JTTlJ0bDhRUDlydkRtQ0VUb1hyVUlXVGZiaW1uNXgxOUw0NF91U19HUWpKdlQxRzFCRFNtUWhPRDZKdzFTcHpRaUZOd0toTzdSLW94NNIBpwFBVV95cUxQZENJT2o3cVNUaUh5WUFfWWlNWXBtNDVscEdwYTgwakJIQ3FsWFFXUEl5a3hVM1IxVmtVQkJwcFczRWNHdV94Z0k0bXc3anp1eWo3Rnd3WUVEc2JTTlJ0bDhRUDlydkRtQ0VUb1hyVUlXVGZiaW1uNXgxOUw0NF91U19HUWpKdlQxRzFCRFNtUWhPRDZKdzFTcHpRaUZOd0toTzdSLW94NA?oc=5",
+          "publisher": "Newswise",
+          "published_at": "2026-11-26 14:50"
         }
       ],
       "related": [],
@@ -1368,13 +1368,13 @@ window.NEWS_DATA = {
     {
       "id": "tech_ev-005",
       "category": "tech_ev",
-      "title": "Banff installs six new electri",
-      "summary": "Banff installs six new electric vehicle charging stations in downtown Bear Street parkade Rocky Mountain Outlook",
+      "title": "Beijing Urges Balanced EV Poli",
+      "summary": "Beijing Urges Balanced EV Policy as Bilateral Travel Stays Strong Nation Thailand",
       "key_facts": [
-        "Rocky Mountain Outlook 于 11-25 13:00 报道：Banff installs six new electric vehicle charging stations in downtown "
+        "Nation Thailand 于 11-27 01:30 报道：Beijing Urges Balanced EV Policy as Bilateral Travel Stays Strong - Na"
       ],
       "entities": [
-        "Rocky Mountain Outlook"
+        "Nation Thailand"
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -1384,10 +1384,10 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "Banff installs six new electric vehicle charging stations in downtown Bear Street parkade - Rocky Mountain Outlook",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSjYwZ0xRTjg1dmdpd3NvanZXdXJIXzVlYThzSFZXdmdISi1ieDg0OFEweHJDT0tuWVBKdUUxbUduVXNOdnVELVMtaFgyM0lSNUpvYWZEN0xRYlY3N21DeXNpLXFWNkxEaGNZUk43OUpTd3NPVW40UTE4SF9IMEpTRUpHX3cta185MFRRbEJzSEpiSFNwMFNqVTFMbzcxekE?oc=5",
-          "publisher": "Rocky Mountain Outlook",
-          "published_at": "2026-11-25 13:00"
+          "title": "Beijing Urges Balanced EV Policy as Bilateral Travel Stays Strong - Nation Thailand",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9UdDBFSUlyQWJPS0Y4RGNYSklqdXYzT3BleHlWckpkaW96VG9MZlRaSncxb3FOa1dNT00zQ0tCcVQ1cDQ2cEROTTNDdTZXSVVhT05tdmxSbUtIWWVlLWZTVzk5Nk42NUt6dklF?oc=5",
+          "publisher": "Nation Thailand",
+          "published_at": "2026-11-27 01:30"
         }
       ],
       "related": [],
@@ -1396,13 +1396,13 @@ window.NEWS_DATA = {
     {
       "id": "tech_ev-006",
       "category": "tech_ev",
-      "title": "China-made solar EV system pac",
-      "summary": "China-made solar EV system packs 1,600W input and 2.5kWh battery for off-grid use Yahoo Autos",
+      "title": "Can electric vehicles work in ",
+      "summary": "Can electric vehicles work in Nigeria? New African Magazine",
       "key_facts": [
-        "Yahoo Autos 于 11-25 16:48 报道：China-made solar EV system packs 1,600W input and 2.5kWh battery for o"
+        "New African Magazine 于 11-26 18:28 报道：Can electric vehicles work in Nigeria? - New African Magazine"
       ],
       "entities": [
-        "Yahoo Autos"
+        "New African Magazine"
       ],
       "impact": "待分析（当前为无 Key 降级输出，配置 GEMINI_API_KEY 后可获得影响研判）",
       "confidence": "medium",
@@ -1412,10 +1412,10 @@ window.NEWS_DATA = {
       ],
       "sources": [
         {
-          "title": "China-made solar EV system packs 1,600W input and 2.5kWh battery for off-grid use - Yahoo Autos",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM0hkcU5vd2JSVk14c1FEWmJ5ZHMxOUNTOUMtekJHRXB4TFNFc1REZlh2aHFheVhQa2lVN2l4d18zT1g0STB3Y1N2LS1qRFdGUUtmQ2lILXA3N2ZCeWtMU0UtRnRqakE0a3BmYnB6RmF4VUthVmhoWWNCNFZpMEN1b3FpYzktUEZXWklrQVRYTTZhME1qVVozTw?oc=5",
-          "publisher": "Yahoo Autos",
-          "published_at": "2026-11-25 16:48"
+          "title": "Can electric vehicles work in Nigeria? - New African Magazine",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWGU2LUxJX1JYS0FWWWkyTDJBQjJSVmQ5U0NOODlwZkdJNHFncHZsLUhfcVFxajlfd2R5YUNwTW9IbTNsaW0tbGtFMzZvZlhSeE50bFhwSHBOQ0xBejhzZVFscXZic3BpZG9WMHgtUmRGc2g1WjhpNHk5WmhFc0hkb1o5Z3MxSXFUcGtWN1NXblZwTjg?oc=5",
+          "publisher": "New African Magazine",
+          "published_at": "2026-11-26 18:28"
         }
       ],
       "related": [],
@@ -1425,26 +1425,24 @@ window.NEWS_DATA = {
   "errors": [
     "GDELT[artificial intelligence] HTTP 429",
     "GDELT[generative AI model] HTTP 429",
-    "GDELT[electric vehicle EV] JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "GDELT[electric vehicle EV] HTTP 429",
     "GDELT[battery technology EV] HTTP 429",
     "GDELT[China government policy] HTTP 429",
     "GDELT[China diplomacy] HTTP 429",
     "GDELT[US government policy] HTTP 429",
     "GDELT[White House announcement] HTTP 429",
     "GDELT[European Union policy] HTTP 429",
-    "GDELT[EU regulation] JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "GDELT[EU regulation] HTTP 429",
     "GDELT[global economy outlook] HTTP 429",
     "GDELT[inflation GDP growth] HTTP 429",
-    "GDELT[Federal Reserve interest rate] ReadTimeout: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=20)",
+    "GDELT[Federal Reserve interest rate] HTTP 429",
     "GDELT[stock market rally selloff] HTTP 429",
-    "GDELT[military defense news] HTTP 429",
     "GDELT[NATO deployment] HTTP 429",
     "RSS[央视网科技] HTTP 404",
     "Hotlist[36kr] ConnectionError: HTTPSConnectionPool(host='api-hot.imsyy.top', port=443): Max retries exceeded with url: /36kr (Caused by NameResolutionError(\"HTTPSConnection(host='api-hot.imsyy.top', port=443): Failed to resolve 'api-hot.imsyy.top' ([Errno -5] No address associated with hostname)\"))",
     "Hotlist[zhihu] ConnectionError: HTTPSConnectionPool(host='api-hot.imsyy.top', port=443): Max retries exceeded with url: /zhihu (Caused by NameResolutionError(\"HTTPSConnection(host='api-hot.imsyy.top', port=443): Failed to resolve 'api-hot.imsyy.top' ([Errno -5] No address associated with hostname)\"))",
     "Hotlist[weibo] ConnectionError: HTTPSConnectionPool(host='api-hot.imsyy.top', port=443): Max retries exceeded with url: /weibo (Caused by NameResolutionError(\"HTTPSConnection(host='api-hot.imsyy.top', port=443): Failed to resolve 'api-hot.imsyy.top' ([Errno -5] No address associated with hostname)\"))",
     "Hotlist[toutiao] ConnectionError: HTTPSConnectionPool(host='api-hot.imsyy.top', port=443): Max retries exceeded with url: /toutiao (Caused by NameResolutionError(\"HTTPSConnection(host='api-hot.imsyy.top', port=443): Failed to resolve 'api-hot.imsyy.top' ([Errno -5] No address associated with hostname)\"))",
-    "Gemini HTTP 404 NOT_FOUND: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for t",
     "Gemini HTTP 404 NOT_FOUND: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for t",
     "Gemini HTTP 404 NOT_FOUND: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for t",
     "Gemini HTTP 404 NOT_FOUND: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for t",
